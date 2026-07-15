@@ -1,12 +1,12 @@
 /* General Reset */
-/* General Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     width: 100%;
     overflow-x: hidden;
 }
@@ -17,6 +17,7 @@ body {
 }
 
 
+/* Fixed Weed Image */
 .fixed-background {
     position: fixed;
     top: 0;
@@ -25,7 +26,7 @@ body {
     width: auto;
     transform: translateX(-50%);
     object-fit: contain;
-    z-index: -2;
+    z-index: -3;
 }
 
 
@@ -35,11 +36,10 @@ body {
     height: 100vh;
     position: relative;
     overflow: hidden;
-    background: transparent;
 }
 
 
-/* Hero Video */
+/* Smoke Video */
 .hero-video {
     position: absolute;
     top: 0;
@@ -48,23 +48,23 @@ body {
     height: 100%;
     object-fit: cover;
     object-position: center;
-    z-index: -1;
+    z-index: -2;
 }
 
 
 /* Header */
 .hero-header {
     width: 100%;
-    height: 80px;
     padding: 32px 40px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: relative;
+    z-index: 10;
 }
 
 
-/* Language Selector + Contact Button */
+/* Language + Contact */
 .language-selector,
 .contact-button {
     height: 40px;
@@ -86,26 +86,21 @@ body {
 }
 
 
-.language-selector img {
-    width: 18px;
-    height: 18px;
-}
-
-
-/* Center Brand */
+/* Brand */
 .brand {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
+    z-index: 10;
 }
 
 
-.brand-logo span {
-    font-family: "Italianno", cursive !important;
-    color: #F6FEFF;
-    font-size: 50px;
-    font-weight: 400;
+.brand-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 
 
@@ -119,6 +114,7 @@ body {
     font-family: 'Italianno', cursive;
     color: #F6FEFF;
     font-size: 50px;
+    font-weight: 400;
 }
 
 
@@ -164,7 +160,6 @@ body {
     border: none;
     cursor: pointer;
 }
-
 
 .contact-button img {
     width: 18px;
