@@ -42,19 +42,25 @@ body {
 }
 
 
-/* Language Selector */
+/* Language Selector + Contact Button */
 .language-selector,
 .contact-button {
     height: 40px;
     padding: 0 16px;
-    border-radius: 30px;
-    background: #F6FEFF;
-    color: #00500D;
+    border-radius: 8px;
+    background: #00500D;
+    color: #F6FEFF;
     display: flex;
     align-items: center;
     gap: 10px;
     font-family: 'Inder', sans-serif;
     font-size: 14px;
+}
+
+.language-selector img,
+.contact-button img {
+    width: 18px;
+    height: 18px;
 }
 
 
@@ -74,15 +80,15 @@ body {
 
 
 .brand img {
-    width: 100px;
+    width: 160px;
     height: auto;
 }
 
 
 .brand p {
-    font-family: 'Italianno', cursive;
+    font-family: 'Sancreek', cursive;
     color: #F6FEFF;
-    font-size: 22px;
+    font-size: 50px;
 }
 
 
@@ -105,8 +111,8 @@ body {
     width: 44px;
     height: 44px;
     padding: 10px;
-    border-radius: 50%;
-    background: #F6FEFF;
+    border-radius: 8px;
+    background: #00500D;
     display: flex;
     align-items: center;
     justify-content: center;
