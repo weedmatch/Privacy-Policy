@@ -33,7 +33,8 @@ body {
 /* Header */
 .hero-header {
     width: 100%;
-    padding: 24px 40px;
+    height: 80px;
+    padding: 16px 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -44,7 +45,7 @@ body {
 /* Language Selector */
 .language-selector,
 .contact-button {
-    height: 48px;
+    height: 40px;
     padding: 0 16px;
     border-radius: 30px;
     background: #F6FEFF;
@@ -53,7 +54,7 @@ body {
     align-items: center;
     gap: 10px;
     font-family: 'Inder', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 
@@ -63,7 +64,7 @@ body {
 }
 
 
-/* Brand Center */
+/* Center Brand */
 .brand {
     position: absolute;
     left: 50%;
@@ -73,18 +74,19 @@ body {
 
 
 .brand img {
-    width: 160px;
+    width: 100px;
+    height: auto;
 }
 
 
 .brand p {
     font-family: 'Italianno', cursive;
     color: #F6FEFF;
-    font-size: 32px;
+    font-size: 22px;
 }
 
 
-/* Social Icons */
+/* Right Actions */
 .header-actions {
     display: flex;
     align-items: center;
@@ -92,6 +94,7 @@ body {
 }
 
 
+/* Social Icons */
 .social-icons {
     display: flex;
     gap: 12px;
