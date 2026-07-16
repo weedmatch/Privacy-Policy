@@ -190,6 +190,8 @@ body {
 /* Weed Carousel */
 
 .weed-carousel {
+    max-width: 1500px;
+    width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
