@@ -382,3 +382,12 @@ body {
 .language-option:hover {
     background: rgba(246,254,255,0.15);
 }
+
+.language-chevron {
+    transition: transform 0.3s ease;
+}
+
+
+.language-wrapper.open .language-chevron {
+    transform: rotate(180deg);
+}
