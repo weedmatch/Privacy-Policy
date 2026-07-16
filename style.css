@@ -296,3 +296,18 @@ body {
 .carousel-dot {
     transition: opacity 0.3s ease;
 }
+
+/* Hover Effects */
+
+.language-selector,
+.contact-button,
+.icon-frame {
+    transition: transform 0.3s ease;
+}
+
+
+.language-selector:hover,
+.contact-button:hover,
+.icon-frame:hover {
+    transform: scale(1.08);
+}
