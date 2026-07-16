@@ -336,19 +336,21 @@ body {
 
 .language-menu {
     position: absolute;
-    top: 48px;
+    top: 100%;
     left: 0;
 
     width: 100%;
+
     background: #00500D;
     border: 1px solid #568360;
     border-radius: 8px;
 
+    margin-top: 8px;
+
     overflow: hidden;
 
+    max-height: 0;
     opacity: 0;
-    visibility: hidden;
-    transform: translateY(-5px);
 
     transition: all 0.3s ease;
 
@@ -356,22 +358,27 @@ body {
 }
 
 
+.language-wrapper.open .language-menu {
+    max-height: 50px;
+    opacity: 1;
+}
+
+
 .language-option {
-    padding: 10px 16px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+
+    padding: 0 16px;
+
     color: #F6FEFF;
     font-family: 'Inder', sans-serif;
     font-size: 14px;
+
     cursor: pointer;
 }
 
 
 .language-option:hover {
     background: rgba(246,254,255,0.15);
-}
-
-
-.language-wrapper:hover .language-menu {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
 }
