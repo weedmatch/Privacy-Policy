@@ -239,7 +239,7 @@ body {
 
 .carousel-controls {
     position: absolute;
-    top: calc(50% + 150px);
+    top: calc(50% + 50px);
     left: 50%;
     transform: translateX(-50%);
 
@@ -249,7 +249,7 @@ body {
     gap: 12px;
 
     padding: 10px 14px;
-    border-radius: 8px;
+    border-radius: 16px;
 
     background: rgba(0, 0, 0, 0.2);
     z-index: 20;
