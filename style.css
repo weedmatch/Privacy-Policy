@@ -266,3 +266,23 @@ body {
 .carousel-dot.active {
     opacity: 1;
 }
+
+/* Carousel Slides */
+
+.carousel-slide {
+    display: none;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.carousel-slide.active {
+    display: flex;
+}
+
+
+/* Controls */
+
+.carousel-dot {
+    transition: opacity 0.3s ease;
+}
