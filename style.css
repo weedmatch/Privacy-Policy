@@ -120,15 +120,15 @@ body {
 
 .brand-logo {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
-    gap: -8px;
+    gap: 0;
 }
 
 
 .brand-logo img {
-    margin-right: -8px;
-    transform: translateY(6px);
+    width: 80px;
+    height: auto;
 }
 
 
@@ -136,6 +136,8 @@ body {
     font-family: 'Italianno', cursive;
     color: #F6FEFF;
     font-size: 50px;
+    margin-left: -8px;
+    transform: translateY(4px);
 }
 
 
@@ -143,9 +145,8 @@ body {
     font-family: 'Sancreek', cursive;
     color: #F6FEFF;
     font-size: 25px;
-    margin-top: 12px;
+    margin-top: 10px;
 }
-
 
 /* Right Actions */
 .header-actions {
