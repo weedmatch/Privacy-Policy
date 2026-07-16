@@ -299,15 +299,25 @@ body {
 
 /* Hover Effects */
 
+/* Language + Contact Hover */
+
 .language-selector,
-.contact-button,
+.contact-button {
+    transition: transform 0.3s ease;
+}
+
+.language-selector:hover,
+.contact-button:hover {
+    transform: scale(1.06);
+}
+
+
+/* Social Icons Hover */
+
 .icon-frame {
     transition: transform 0.3s ease;
 }
 
-
-.language-selector:hover,
-.contact-button:hover,
 .icon-frame:hover {
-    transform: scale(1.08);
+    transform: scale(1.15);
 }
