@@ -111,8 +111,6 @@ body {
 .contact-button img {
     width: 18px;
     height: 18px;
-    white-space: nowrap;
-    flex-shrink: 0;
 }
 
 
@@ -304,15 +302,8 @@ body {
 
 
 .carousel-image {
-    flex: 1;
     display: flex;
     justify-content: center;
-}
-
-
-.carousel-content {
-    width: 500px;
-    text-align: left;
 }
 
 
@@ -320,8 +311,7 @@ body {
 
 .carousel-content {
     width: 500px;
-    max-width: 100%;
-    padding: 0 40px;
+    padding: 0;
     text-align: left;
     flex-shrink: 0;
 }
@@ -463,11 +453,4 @@ body {
 
 .language-wrapper.open .language-chevron {
     transform: rotate(180deg);
-}
-
-/* Responsive Carousel */
-@media (max-width: 1400px) {
-    .weed-carousel {
-        width: calc(100% - 80px);
-    }
 }
