@@ -551,3 +551,20 @@ body {
 .contact-wrapper.open .contact-chevron {
     transform: rotate(180deg);
 }
+
+
+/* Contact Dropdown Responsive */
+
+@media (max-width: 900px) {
+
+    .social-icons,
+    .header-actions > .contact-button {
+        display: none;
+    }
+
+
+    .contact-toggle {
+        display: flex;
+    }
+
+}
