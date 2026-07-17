@@ -463,3 +463,81 @@ body {
 .language-wrapper.open .language-chevron {
     transform: rotate(180deg);
 }
+
+/* Contact Dropdown (Responsive) */
+
+.contact-wrapper {
+    position: relative;
+}
+
+
+.contact-toggle {
+    display: none;
+
+    height: 40px;
+    padding: 0 16px;
+
+    border-radius: 8px;
+
+    background: #00500D;
+    color: #F6FEFF;
+
+    border: 1px solid #F6FEFF;
+
+    align-items: center;
+    gap: 10px;
+
+    font-family: 'Inder', sans-serif;
+    font-size: 14px;
+
+    cursor: pointer;
+}
+
+
+.contact-toggle img {
+    width: 18px;
+    height: 18px;
+
+    transition: transform 0.3s ease;
+}
+
+
+.contact-menu {
+
+    position: absolute;
+
+    top: 48px;
+    right: 0;
+
+    display: none;
+
+    align-items: center;
+    gap: 12px;
+
+    padding: 10px 14px;
+
+    background: #00500D;
+
+    border: 1px solid #F6FEFF;
+
+    border-radius: 8px;
+
+    z-index: 20;
+}
+
+
+.contact-menu .icon-frame {
+    cursor: pointer;
+}
+
+
+/* Open State */
+
+.contact-wrapper.open .contact-menu {
+    display: flex;
+}
+
+
+.contact-wrapper.open .contact-chevron {
+    transform: rotate(180deg);
+}
