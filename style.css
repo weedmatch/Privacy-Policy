@@ -158,12 +158,11 @@ body {
 
 /* Tagline */
 .brand p {
-    margin-top: 16px;
-
     font-family: 'Sancreek', cursive;
     color: #F6FEFF;
     font-size: 24px;
-    line-height: 1.2;
+    margin-top: 16px;
+    white-space: nowrap;
 }
 
 
@@ -470,8 +469,8 @@ body {
 }
 
 /* Responsive Carousel */
-@media (max-width: 1200px) {
-    .carousel-image img {
-        width: 160px;
+@media (max-width: 1400px) {
+    .weed-carousel {
+        width: calc(100% - 80px);
     }
 }
