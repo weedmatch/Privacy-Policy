@@ -571,22 +571,16 @@ body {
 
 @media (max-width: 500px) {
 
-    .hero-header {
-        flex-direction: column;
-        align-items: center;
-    }
-
-
     .language-wrapper {
         position: absolute;
-        top: 120px;
+        top: 110px;
         left: 40px;
     }
 
 
     .contact-wrapper {
         position: absolute;
-        top: 120px;
+        top: 110px;
         right: 40px;
     }
 
