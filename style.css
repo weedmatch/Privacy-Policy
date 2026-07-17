@@ -254,8 +254,8 @@ body {
 /* Weed Carousel */
 
 .weed-carousel {
+    width: calc(100% - 180px);
     max-width: 1400px;
-    width: 100%;
 
     position: absolute;
     top: 50%;
@@ -301,8 +301,9 @@ body {
 /* Carousel Images */
 
 .carousel-image img {
-    width: 220px;
+    width: clamp(120px, 18vw, 220px);
     height: auto;
+    object-fit: contain;
 }
 
 
