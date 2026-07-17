@@ -257,7 +257,6 @@ body {
 .weed-carousel {
     width: 100%;
     max-width: 1400px;
-    padding: 0 50px;
 
     position: absolute;
     top: 50%;
@@ -281,9 +280,7 @@ body {
 
     display: flex;
     align-items: center;
-    justify-content: center;
-
-    gap: 40px;
+    justify-content: space-between;
 
     opacity: 0;
     transform: translateX(100%);
@@ -304,7 +301,7 @@ body {
 /* Carousel Images */
 
 .carousel-image img {
-    width: clamp(90px, 15vw, 220px);
+    width: 220px;
     height: auto;
     object-fit: contain;
 }
@@ -319,8 +316,6 @@ body {
 
 .carousel-content {
     width: 500px;
-    max-width: 40%;
-    padding: 0 20px;
     text-align: left;
 }
 
@@ -472,4 +467,11 @@ body {
 
 .language-wrapper.open .language-chevron {
     transform: rotate(180deg);
+}
+
+/* Responsive Carousel */
+@media (max-width: 1200px) {
+    .carousel-image img {
+        width: 160px;
+    }
 }
