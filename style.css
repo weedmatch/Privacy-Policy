@@ -572,21 +572,27 @@ body {
 @media (max-width: 500px) {
 
     .hero-header {
-        position: relative;
+        height: auto;
     }
 
 
     .language-wrapper {
         position: absolute;
-        top: 170px;
+        top: 140px;
         left: 40px;
     }
 
 
     .contact-wrapper {
         position: absolute;
-        top: 170px;
+        top: 140px;
         right: 40px;
+    }
+
+
+    .brand {
+        top: 32px;
+        bottom: auto;
     }
 
 }
