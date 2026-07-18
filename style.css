@@ -134,7 +134,7 @@ body {
 
 
 .brand-logo img {
-    width: 80px;
+    width: 60px;
     height: auto;
 }
 
@@ -606,6 +606,10 @@ body {
     padding: 0 20px;
 }
 
+    .brand-logo img {
+    width: 65px;
+}
+    
 .language-wrapper,
 .header-actions {
     display: flex;
