@@ -812,9 +812,10 @@ body {
 
 .phone-mockup img {
     position: relative;
-
-    width: 100%;
+    width: 90%;
     height: auto;
-
+    transform: scaleY(0.8);
+    transform-origin: center;
     z-index: 2;
 }
+
