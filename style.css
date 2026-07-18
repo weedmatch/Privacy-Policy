@@ -782,16 +782,16 @@ body {
 
 
 .video-title {
-    font-size: 24px;
+    font-size: 22px;
     text-align: center;
     line-height: 1.2;
-    margin-bottom: 12px;
+    margin-bottom: 32px;
 }
 
 
 .phone-mockup {
     position: relative;
-    width: 280px;
+    width: 240px;
     border: 6px solid #000000;
     border-radius: 36px;
     overflow: hidden;
