@@ -601,10 +601,10 @@ body {
 @media (max-width: 500px) {
 
     /* Hide Desktop Header Items */
-    .hero-header > .language-wrapper,
-    .hero-header > .header-actions {
-        display: none;
-    }
+    .language-wrapper,
+.header-actions {
+    display: none;
+}
 
 
     /* Show Mobile Header Items */
