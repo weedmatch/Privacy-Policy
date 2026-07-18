@@ -595,3 +595,35 @@ body {
 .mobile-header-actions {
     display: none;
 }
+
+/* Mobile Header Breakpoint */
+
+@media (max-width: 500px) {
+
+    /* Hide Desktop Header Items */
+    .hero-header > .language-wrapper,
+    .hero-header > .header-actions {
+        display: none;
+    }
+
+
+    /* Show Mobile Header Items */
+    .mobile-header-actions {
+        display: flex;
+
+        position: absolute;
+
+        top: 160px;
+        left: 50%;
+
+        transform: translateX(-50%);
+
+        align-items: center;
+        justify-content: center;
+
+        gap: 20px;
+
+        z-index: 20;
+    }
+
+}
