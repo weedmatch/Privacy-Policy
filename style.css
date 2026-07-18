@@ -527,7 +527,7 @@ body {
 
     gap: 12px;
 
-    width: max-content;  /* adjust if your Contact Us button is wider */
+    width: 120px; /* adjust if your Contact Us button is wider */
 
     padding: 12px;
 
