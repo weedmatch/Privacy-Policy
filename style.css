@@ -589,3 +589,9 @@ body {
     }
 
 }
+
+/* Mobile Header Actions */
+
+.mobile-header-actions {
+    display: none;
+}
