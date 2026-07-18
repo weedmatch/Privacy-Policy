@@ -77,7 +77,7 @@ body {
     padding: 0 40px;
 
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
 
     height: 80px;
@@ -613,6 +613,10 @@ body {
     align-items: center;
 }
 
+    .brand-name {
+    transform: translateY(4px);
+}
+    
     .brand-name span {
     font-size: 28px;
 }
