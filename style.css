@@ -613,7 +613,7 @@ body {
 }
     .carousel-content {
     width: 100%;
-    padding: 0 4;
+    padding: 0 4px;
 }
     .carousel-slide {
     gap: 10px;
