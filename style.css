@@ -615,6 +615,12 @@ body {
     width: 100%;
     padding: 0 4;
 }
+    .carousel-slide {
+    gap: 10px;
+}
+    .carousel-image img {
+    width: 80px;
+}
     
 .language-wrapper,
 .header-actions {
