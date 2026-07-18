@@ -795,7 +795,7 @@ body {
     position: relative;
     width: 280px;
     border: 6px solid #000000;
-    border-radius: 32px;
+    border-radius: 36px;
     overflow: hidden;
 }
 
@@ -804,6 +804,6 @@ body {
     width: 100%;
     height: auto;
     display: block;
-    border-radius: 36px;
+    border-radius: 32px;
 }
 
