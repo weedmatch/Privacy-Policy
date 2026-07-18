@@ -527,11 +527,13 @@ body {
 
     gap: 12px;
 
+    width: max-content;  /* adjust if your Contact Us button is wider */
+
     padding: 12px;
 
     background: #00500D;
 
-    border: 1px solid #F6FEFF;
+    border: none;
 
     border-radius: 8px;
 
