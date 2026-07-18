@@ -569,35 +569,11 @@ body {
 
 }
 
+
 @media (max-width: 500px) {
 
     .hero-header {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-        height: 220px;
-    }
-
-
-    .brand {
-        position: absolute;
-        top: 20px;
-        bottom: auto;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-
-    .language-wrapper {
-        margin-top: 150px;
-        position: static;
-    }
-
-
-    .header-actions {
-        margin-top: 10px;
-        position: static;
+        padding-top: 140px;
     }
 
 }
