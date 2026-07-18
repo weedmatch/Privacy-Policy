@@ -759,7 +759,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 64px;
+    gap: 48px;
 
     margin-top: 30px;
 }
