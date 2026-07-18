@@ -612,4 +612,19 @@ body {
     align-items: center;
 }
 
+    .brand-name span {
+    font-size: 40px;
+}
+
+.brand p {
+    font-size: 20px;
+}
+
+.carousel-content h1 {
+    font-size: 20px;
+}
+
+.carousel-content p {
+    font-size: 14px;
+}
 }
