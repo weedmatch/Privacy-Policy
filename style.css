@@ -770,7 +770,6 @@ body {
 
 .swipe-decoration .ios-icon {
     width: 64px
-    border: 16px solid #F6FEFF;
 }
 
 
@@ -794,7 +793,7 @@ body {
 .phone-mockup {
     position: relative;
     width: 280px;
-    border: 16px solid #000000;
+    border: 8px solid #000000;
     border-radius: 32px;
     overflow: hidden;
 }
