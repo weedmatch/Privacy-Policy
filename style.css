@@ -608,6 +608,9 @@ body {
     margin-top: 16px;
 }
 
+    .hero-header {
+    padding: 0 20px;
+}
 
 .language-wrapper,
 .header-actions {
