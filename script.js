@@ -105,3 +105,18 @@ languageOption.addEventListener("click", () => {
     languageWrapper.classList.remove("open");
 
 });
+
+// Contact Dropdown
+
+const contactWrapper = document.querySelector(".contact-wrapper");
+const contactToggle = document.querySelector(".contact-toggle");
+
+if (contactToggle) {
+
+    contactToggle.addEventListener("click", () => {
+
+        contactWrapper.classList.toggle("open");
+
+    });
+
+}
