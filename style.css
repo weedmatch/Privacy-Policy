@@ -649,3 +649,163 @@ body {
     font-size: 14px;
 }
 }
+
+
+
+/* Swipe Section */
+
+.swipe-section {
+    width: 100%;
+    background: rgba(0, 80, 13, 0.9);
+}
+
+
+.swipe-container {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 80px 40px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    align-items: center;
+    gap: 40px;
+}
+
+
+/* Left Image */
+
+.swipe-image {
+    display: flex;
+    justify-content: center;
+}
+
+
+.swipe-image img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    object-fit: contain;
+}
+
+
+
+/* Middle Content */
+
+.swipe-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.swipe-title,
+.video-title {
+    font-family: 'Sancreek', cursive;
+    color: #F6FEFF;
+}
+
+
+.swipe-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+
+.swipe-description {
+    font-family: 'Inder', sans-serif;
+    color: #F6FEFF;
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 420px;
+    margin-bottom: 30px;
+}
+
+
+.ios-icon {
+    width: 40px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+.store-buttons {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+
+
+.store-buttons img {
+    height: 45px;
+    width: auto;
+}
+
+
+
+/* Decoration */
+
+.swipe-decoration {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+
+    margin-top: 30px;
+}
+
+
+.swipe-decoration img {
+    width: 24px;
+    height: 24px;
+}
+
+
+
+/* Right Video */
+
+.swipe-video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.video-title {
+    font-size: 24px;
+    text-align: center;
+    line-height: 1.4;
+    margin-bottom: 25px;
+}
+
+
+.phone-mockup {
+    position: relative;
+    width: 280px;
+}
+
+
+.phone-mockup video {
+    position: absolute;
+
+    width: 86%;
+    height: 90%;
+
+    top: 5%;
+    left: 7%;
+
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+
+.phone-mockup img {
+    position: relative;
+
+    width: 100%;
+    height: auto;
+
+    z-index: 2;
+}
