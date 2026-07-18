@@ -616,7 +616,7 @@ body {
     width: 100%;
     padding: 0 4px;
     margin-bottom: 14px;
-    max-width: 164px;
+    min-width: 164px;
 }
     .carousel-slide {
     gap: 10px;
