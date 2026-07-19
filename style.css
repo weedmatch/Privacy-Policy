@@ -960,7 +960,8 @@ body {
 .feature-row {
     display: flex;
     align-items: center;
-    gap: clamp(16px, 2vw, 32px);
+    gap: clamp(10px, 1.2vw, 24px);
+    min-width: 0;
 }
 
 
@@ -993,7 +994,7 @@ body {
 /* Feature Text */
 
 .feature-content {
-    max-width: 500px;
+    flex: 1;
     min-width: 0;
 }
 
@@ -1001,18 +1002,16 @@ body {
 .feature-content h2 {
     font-family: 'Sancreek', cursive;
     color: #00500D;
-    font-size: 24px;
+    font-size: clamp(16px, 1.4vw, 24px);
     margin-bottom: 16px;
 }
-
 
 .feature-content p {
     font-family: 'Inder', sans-serif;
     color: #00500D;
-    font-size: 16px;
+    font-size: clamp(12px, 1vw, 16px);
     line-height: 1.5;
 }
-
 
 /* QR Links Box */
 
