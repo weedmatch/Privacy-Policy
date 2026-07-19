@@ -805,34 +805,34 @@ body {
 
     .swipe-video-container {
         order: 1;
+        width: 100%;
     }
+
+    .phone-mockup {
+        width: 200px;
+    }
+
+    .video-title {
+        font-size: 20px;
+        max-width: 300px;
+    }
+
 
     .swipe-content {
         order: 2;
         width: 100%;
     }
 
+    .swipe-description {
+        width: 100%;
+        max-width: 380px;
+    }
+
+
     .swipe-image {
         order: 3;
+        width: 100%;
     }
-
-
-    .phone-mockup {
-        width: 220px;
-    }
-
-
-    .video-title {
-        font-size: 20px;
-        margin-bottom: 16px;
-    }
-
-
-    .swipe-description {
-        max-width: 450px;
-        margin-bottom: 60px;
-    }
-
 
     .swipe-image img {
         max-width: 320px;
