@@ -975,7 +975,7 @@ body {
 
 .video-mockup {
     width: clamp(160px, 16vw, 210px);
-    border: 6px solid #000000;
+    border: 3px solid #000000;
     border-radius: 28px;
     overflow: hidden;
     box-shadow: 0 10px 25px rgba(0,0,0,0.35);
