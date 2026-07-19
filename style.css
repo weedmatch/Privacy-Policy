@@ -876,13 +876,11 @@ body {
         padding: 40px 20px;
     }
 
-
     /* 2. Middle Content first */
     .swipe-content {
         order: 1;
         width: 100%;
     }
-
 
     .swipe-description {
         max-width: 90%;
@@ -890,31 +888,25 @@ body {
         margin-bottom: 80px;
     }
 
-
     .store-buttons img {
         height: 50px;
     }
-
 
     .store-buttons {
         margin-bottom: 48px;
     }
 
-
     .swipe-decoration {
         gap: 48px;
     }
-
 
     .swipe-decoration img {
         width: 44px;
     }
 
-
     .swipe-decoration .ios-icon {
         width: 70px;
     }
-
 
     /* 3. Video second */
     .swipe-video-container {
@@ -922,16 +914,13 @@ body {
         width: 100%;
     }
 
-
     .phone-mockup {
         width: 228px;
     }
 
-
     .video-title-image {
         width: 320px;
     }
-
 
     /* 1. Image last */
     .swipe-image {
@@ -939,9 +928,86 @@ body {
         width: 100%;
     }
 
-
     .swipe-image img {
         max-width: 320px;
     }
 
+}
+
+
+/* Unique App Features Section */
+
+.unique-features-section {
+    width: 100%;
+    background: transparent;
+}
+
+
+.unique-features-container {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 100px 40px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+
+/* Feature Rows */
+
+.feature-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+
+/* Video Mockups */
+
+.feature-video {
+    display: flex;
+    justify-content: center;
+}
+
+
+.video-mockup {
+    width: 240px;
+    border: 6px solid #000000;
+    border-radius: 36px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+}
+
+
+.video-mockup video {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 32px;
+}
+
+
+/* Feature Text */
+
+.feature-content {
+    max-width: 500px;
+}
+
+
+.feature-content h2 {
+    font-family: 'Sancreek', cursive;
+    color: #00500D;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+
+.feature-content p {
+    font-family: 'Inder', sans-serif;
+    color: #00500D;
+    font-size: 16px;
+    line-height: 1.5;
 }
