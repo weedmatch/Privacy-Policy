@@ -944,24 +944,15 @@ body {
 
 
 .unique-features-container {
-    width: 100%;
-    max-width: 1500px;
-    margin: 0 auto;
-    padding: 100px 40px;
-
-    display: flex;
-    flex-direction: column;
-    gap: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
 }
-
-
-/* Feature Rows */
 
 .feature-row {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 80px;
 }
 
 
@@ -974,11 +965,11 @@ body {
 
 
 .video-mockup {
-    width: 240px;
+    width: clamp(180px, 18vw, 240px);
     border: 6px solid #000000;
-    border-radius: 36px;
+    border-radius: clamp(20px, 3vw, 38px);
     overflow: hidden;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.35);
 }
 
 
@@ -986,7 +977,7 @@ body {
     width: 100%;
     height: auto;
     display: block;
-    border-radius: 32px;
+    border-radius: clamp(16px, 2.5vw, 32px);
 }
 
 
