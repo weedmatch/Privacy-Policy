@@ -959,9 +959,8 @@ body {
 
 .feature-row {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    gap: 32px;
+    gap: clamp(16px, 2vw, 32px);
 }
 
 
@@ -974,7 +973,8 @@ body {
 
 
 .video-mockup {
-    width: clamp(160px, 16vw, 210px);
+    width: clamp(130px, 14vw, 210px);
+    flex-shrink: 0;
     border: 3px solid #000000;
     border-radius: 28px;
     overflow: hidden;
@@ -994,6 +994,7 @@ body {
 
 .feature-content {
     max-width: 500px;
+    min-width: 0;
 }
 
 
@@ -1011,6 +1012,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
 }
+
 
 /* QR Links Box */
 
