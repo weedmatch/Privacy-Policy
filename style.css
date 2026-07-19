@@ -1011,3 +1011,44 @@ body {
     font-size: 16px;
     line-height: 1.5;
 }
+
+/* QR Links Box */
+
+.qr-links-box {
+    margin-top: 32px;
+    padding: 20px 24px;
+
+    border: 2px solid #00500D;
+    border-radius: 16px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+
+.qr-links-box a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    font-family: 'Inder', sans-serif;
+    color: #00500D;
+    font-size: 15px;
+    text-decoration: none;
+
+    transition: opacity 0.3s ease;
+}
+
+
+.qr-links-box a:hover {
+    opacity: 0.7;
+}
+
+
+.qr-links-box img {
+    width: 18px;
+    height: 18px;
+}
