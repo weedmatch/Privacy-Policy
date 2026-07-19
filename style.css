@@ -723,7 +723,7 @@ body {
 }
 
 .store-buttons img {
-    height: clamp(32px, 3vw, 45px);
+    height: clamp(28px, 8vw, 45px);
     width: auto;
     transition: transform 0.3s ease;
     cursor: pointer;
@@ -750,12 +750,12 @@ body {
 }
 
 .swipe-decoration img {
-    width: clamp(24px, 3vw, 40px);
+    width: clamp(20px, 8vw, 40px);
     height: auto;
 }
 
 .swipe-decoration .ios-icon {
-    width: clamp(48px, 5vw, 64px);
+    width: clamp(40px, 8vw, 64px);
 }
 
 
