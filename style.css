@@ -799,8 +799,8 @@ body {
 
     .swipe-container {
         grid-template-columns: 1fr;
-        gap: 50px;
-        padding: 60px 40px;
+        gap: 40px;
+        padding: 50px 30px;
     }
 
 
@@ -811,12 +811,13 @@ body {
     }
 
     .video-title {
-        font-size: clamp(16px, 2.5vw, 22px);
+        font-size: clamp(14px, 2vw, 18px);
         white-space: nowrap;
+        transform: scale(0.85);
     }
 
     .phone-mockup {
-        width: clamp(180px, 25vw, 240px);
+        width: clamp(150px, 18vw, 200px);
     }
 
 
@@ -828,7 +829,8 @@ body {
 
     .swipe-description {
         width: 100%;
-        max-width: 90%;
+        max-width: 420px;
+        font-size: 15px;
     }
 
 
@@ -839,7 +841,7 @@ body {
     }
 
     .swipe-image img {
-        max-width: clamp(260px, 35vw, 420px);
+        max-width: clamp(240px, 30vw, 350px);
     }
 
 }
