@@ -872,7 +872,7 @@ body {
 
     .swipe-container {
         grid-template-columns: 1fr;
-        gap: 64px;
+        gap: 78px;
         padding: 40px 20px;
     }
 
