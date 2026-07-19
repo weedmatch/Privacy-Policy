@@ -744,6 +744,12 @@ body {
     gap: 48px;
 }
 
+.ios-icon {
+    width: 64px;
+    height: auto;
+    filter: drop-shadow(0 6px 8px rgba(0, 0, 0, 0.5));
+}
+
 .swipe-decoration img {
     width: 40px;
     height: auto;
