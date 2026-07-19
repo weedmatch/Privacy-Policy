@@ -696,8 +696,7 @@ body {
     align-items: center;
 }
 
-.swipe-title,
-.video-title {
+.swipe-title {
     font-family: 'Sancreek', cursive;
     color: #F6FEFF;
 }
@@ -759,6 +758,8 @@ body {
     width: 64px;
 }
 
+
+
 /* Right Video */
 
 .swipe-video-container {
@@ -767,14 +768,12 @@ body {
     align-items: center;
 }
 
-
-.video-title {
-    font-size: clamp(16px, 2vw, 22px);
-    text-align: center;
-    line-height: 1.2;
+.video-title-image {
+    width: clamp(160px, 18vw, 280px);
+    height: auto;
     margin-bottom: 16px;
+    object-fit: contain;
 }
-
 
 .phone-mockup {
     position: relative;
@@ -808,12 +807,6 @@ body {
     .swipe-video-container {
         order: 1;
         width: 100%;
-    }
-
-    .video-title {
-        font-size: clamp(14px, 2vw, 18px);
-        white-space: nowrap;
-        transform: scale(0.85);
     }
 
     .phone-mockup {
