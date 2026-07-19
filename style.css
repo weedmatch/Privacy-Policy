@@ -547,11 +547,9 @@ body {
         display: none;
     }
 
-
     .contact-toggle {
         display: flex;
     }
-
 }
 
 
@@ -659,7 +657,6 @@ body {
     background: rgba(0, 80, 13, 0.9);
 }
 
-
 .swipe-container {
     width: 100%;
     max-width: 1500px;
@@ -672,7 +669,6 @@ body {
     align-items: center;
     gap: 40px;
 }
-
 
 /* Left Image */
 
@@ -753,6 +749,9 @@ body {
     height: auto;
 }
 
+.swipe-decoration .ios-icon {
+    width: 64px;
+}
 
 /* Right Video */
 
