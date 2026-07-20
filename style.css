@@ -927,13 +927,14 @@ body {
 }
 
 
+
+
 /* Unique App Features Section */
 
 .unique-features-section {
     width: 100%;
     background: transparent;
 }
-
 
 .unique-features-container {
     width: 100%;
@@ -971,7 +972,6 @@ body {
     box-shadow: 0 10px 25px rgba(0,0,0,0.35);
 }
 
-
 .video-mockup video {
     width: 100%;
     height: auto;
@@ -985,7 +985,6 @@ body {
     flex: 1;
     min-width: 0;
 }
-
 
 .feature-content h2 {
     font-family: 'Sancreek', cursive;
@@ -1020,7 +1019,6 @@ body {
     box-shadow: 0 8px 20px rgba(0,0,0,0.25);
 }
 
-
 .qr-links-box a {
     display: flex;
     align-items: center;
@@ -1034,13 +1032,93 @@ body {
     transition: opacity 0.3s ease;
 }
 
-
 .qr-links-box a:hover {
     opacity: 0.7;
 }
 
-
 .qr-links-box img {
     width: 18px;
     height: 18px;
+}
+
+.feature-cards-container {
+    width: 100%;
+    max-width: 1500px;
+    margin: 80px auto 0;
+    padding: 0 40px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+
+.feature-card {
+    background: #F6FEFF;
+    border: 2px solid #00500D;
+    border-radius: 20px;
+
+    padding: 40px 30px;
+
+    text-align: center;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+
+    transition: 
+        background 0.3s ease,
+        border-color 0.3s ease,
+        transform 0.3s ease;
+}
+
+
+.card-icon {
+    width: 55px;
+    height: 55px;
+    margin-bottom: 20px;
+}
+
+
+.white-icon {
+    display: none;
+}
+
+
+.feature-card h3 {
+    font-family: 'Sancreek', cursive;
+    color: #00500D;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+
+.feature-card p {
+    font-family: 'Inder', sans-serif;
+    color: #00500D;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+/* Hover */
+
+.feature-card:hover {
+    background: #00500D;
+    border-color: #F6FEFF;
+    transform: translateY(-6px);
+}
+
+
+.feature-card:hover .green-icon {
+    display: none;
+}
+
+
+.feature-card:hover .white-icon {
+    display: inline-block;
+}
+
+
+.feature-card:hover h3,
+.feature-card:hover p {
+    color: #F6FEFF;
 }
