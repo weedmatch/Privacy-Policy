@@ -1071,6 +1071,13 @@ body {
     gap: 40px;
 }
 
+.bottom-feature-card h3 {
+    font-family: 'Sancreek', cursive;
+    color: #00500D;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
 .bottom-feature-card {
     width: 420px;
     flex: 0 0 420px;
