@@ -1069,6 +1069,7 @@ body {
     align-items: center;
 
     gap: 40px;
+    outline: 2px solid red;
 }
 
 
