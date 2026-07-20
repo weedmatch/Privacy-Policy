@@ -1075,7 +1075,7 @@ body {
     font-family: 'Sancreek', cursive;
     color: #00500D;
     font-size: 22px;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
 }
 
 .bottom-feature-card {
@@ -1100,14 +1100,14 @@ body {
 }
 
 .bottom-feature-card p {
-    max-width: 300px;
+    max-width: 260px;
     margin: 0 auto;
 
     font-family: 'Inder', sans-serif;
     color: #00500D;
 
-    font-size: 15px;
-    line-height: 1.5;
+    font-size: 16px;
+    line-height: 1.4;
 }
 
 
@@ -1124,6 +1124,8 @@ body {
 .card-icon {
     width: 32px;
     height: 32px;
+    position: absolute;
+    inset: 0;
 }
 
 .green-icon {
