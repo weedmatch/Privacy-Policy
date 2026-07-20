@@ -1057,18 +1057,19 @@ body {
 .bottom-feature-cards {
     width: 100%;
     max-width: 1500px;
+
     margin: 80px auto 0;
     padding: 0 40px;
 
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 32px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
 }
 
 
 .bottom-feature-card {
-    width: 100%;
-    min-height: 220px;
+    width: 420px;
+    height: 260px;
 
     background: #F6FEFF;
 
@@ -1086,4 +1087,3 @@ body {
         border-color 0.3s ease,
         transform 0.3s ease;
 }
-
