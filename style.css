@@ -1111,3 +1111,31 @@ body {
 .feature-card:hover p {
     color: #F6FEFF;
 }
+
+.card-icon-wrapper {
+    position: relative;
+    width: 55px;
+    height: 55px;
+    margin: 0 auto 20px;
+}
+
+.card-icon {
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.white-icon {
+    display: none;
+}
+
+
+.feature-card:hover .green-icon {
+    display: none;
+}
+
+.feature-card:hover .white-icon {
+    display: block;
+}
