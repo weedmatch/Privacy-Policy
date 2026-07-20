@@ -976,8 +976,6 @@ body {
     width: 100%;
     height: auto;
     display: block;
-
-    border-radius: clamp(16px, 2.5vw, 32px);
 }
 
 
