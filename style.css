@@ -805,19 +805,16 @@ body {
         row-gap: 100px;
         padding: 50px 30px;
     }
-
-
+    
     .swipe-video-container {
         order: 1;
         width: 100%;
     }
 
-
     .swipe-content {
         order: 2;
         width: 100%;
     }
-
 
     .swipe-image {
         order: 3;
@@ -825,43 +822,35 @@ body {
         width: 100%;
     }
 
-
     .phone-mockup {
         width: clamp(200px, 18vw, 240px);
     }
-
 
     .video-title-image {
         width: clamp(280px, 18vw, 320px);
     }
 
-
     .store-buttons img {
         height: clamp(45px, 3vw, 50px);
     }
-
 
     .swipe-decoration {
         gap: clamp(32px, 4vw, 40px);
     }
 
-
     .swipe-decoration img {
         width: clamp(40px, 3vw, 44px);
     }
 
-
     .swipe-decoration .ios-icon {
         width: clamp(64px, 5vw, 70px);
     }
-
 
     .swipe-description {
         width: 100%;
         max-width: 420px;
         font-size: 15px;
     }
-
 
     .swipe-image img {
         max-width: clamp(280px, 30vw, 320px);
@@ -964,7 +953,6 @@ body {
     min-width: 0;
 }
 
-
 /* Video Mockups */
 
 .feature-video {
@@ -972,16 +960,14 @@ body {
     justify-content: center;
 }
 
-
 .video-mockup {
-    width: clamp(130px, 14vw, 210px);
+    width: clamp(110px, 12vw, 180px);
     flex-shrink: 0;
     border: 3px solid #000000;
     border-radius: 28px;
     overflow: hidden;
     box-shadow: 0 10px 25px rgba(0,0,0,0.35);
 }
-
 
 .video-mockup video {
     width: 100%;
