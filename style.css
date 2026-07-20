@@ -936,23 +936,28 @@ body {
     background: transparent;
 }
 
+
+/* Video Feature Blocks */
+
 .unique-features-container {
     width: 100%;
     max-width: 1500px;
     margin: 0 auto;
     padding: 100px 40px;
 
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
 }
+
 
 .feature-row {
     display: flex;
     align-items: center;
-    gap: clamp(10px, 1.2vw, 24px);
-    min-width: 0;
+    gap: 32px;
+    width: 100%;
 }
+
 
 /* Video Mockups */
 
@@ -960,6 +965,7 @@ body {
     display: flex;
     justify-content: center;
 }
+
 
 .video-mockup {
     width: clamp(120px, 12vw, 160px);
@@ -971,6 +977,7 @@ body {
     overflow: hidden;
     box-shadow: 0 10px 25px rgba(0,0,0,0.35);
 }
+
 
 .video-mockup video {
     width: 100%;
@@ -986,12 +993,14 @@ body {
     min-width: 0;
 }
 
+
 .feature-content h2 {
     font-family: 'Sancreek', cursive;
     color: #00500D;
     font-size: 24px;
     margin-bottom: 16px;
 }
+
 
 .feature-content p {
     font-family: 'Inder', sans-serif;
@@ -1000,7 +1009,8 @@ body {
     line-height: 1.5;
 }
 
-/* QR Links Box */
+
+/* QR Links */
 
 .qr-links-box {
     margin-top: 32px;
@@ -1019,6 +1029,7 @@ body {
     box-shadow: 0 8px 20px rgba(0,0,0,0.25);
 }
 
+
 .qr-links-box a {
     display: flex;
     align-items: center;
@@ -1028,13 +1039,8 @@ body {
     color: #0000EE;
     font-size: 15px;
     text-decoration: none;
-
-    transition: opacity 0.3s ease;
 }
 
-.qr-links-box a:hover {
-    opacity: 0.7;
-}
 
 .qr-links-box img {
     width: 18px;
@@ -1043,12 +1049,12 @@ body {
 
 
 
-/* Feature Cards */
+/* Bottom Feature Cards */
 
 .feature-cards {
     width: 100%;
     max-width: 1500px;
-    margin: 80px auto 0;
+    margin: 20px auto 0;
     padding: 0 40px;
 
     display: grid;
@@ -1062,8 +1068,8 @@ body {
 
     border: 2px solid #00500D;
     border-radius: 16px;
-    padding: 24px 20px;
-    min-height: 260px;
+
+    padding: 28px 24px;
 
     text-align: center;
 
@@ -1076,18 +1082,38 @@ body {
 }
 
 
+.card-icon-wrapper {
+    position: relative;
+
+    width: 55px;
+    height: 55px;
+
+    margin: 0 auto 20px;
+}
+
+
 .card-icon {
     width: 55px;
     height: 55px;
-    margin-bottom: 20px;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+.white-icon {
+    opacity: 0;
 }
 
 
 .feature-card h3 {
     font-family: 'Sancreek', cursive;
     color: #00500D;
-    font-size: 24px;
-    margin-bottom: 16px;
+
+    font-size: 22px;
+
+    margin-bottom: 12px;
 }
 
 
@@ -1097,49 +1123,34 @@ body {
 
     font-family: 'Inder', sans-serif;
     color: #00500D;
+
     font-size: 15px;
     line-height: 1.5;
 }
 
 
-/* Hover */
+
+/* Card Hover */
 
 .feature-card:hover {
     background: #00500D;
     border-color: #F6FEFF;
+
     transform: translateY(-6px);
+}
+
+
+.feature-card:hover .green-icon {
+    opacity: 0;
+}
+
+
+.feature-card:hover .white-icon {
+    opacity: 1;
 }
 
 
 .feature-card:hover h3,
 .feature-card:hover p {
     color: #F6FEFF;
-}
-
-.card-icon-wrapper {
-    position: relative;
-    width: 55px;
-    height: 55px;
-    margin: 0 auto 20px;
-}
-
-.card-icon {
-    width: 55px;
-    height: 55px;
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-
-.white-icon {
-    display: none;
-}
-
-
-.feature-card:hover .green-icon {
-    display: none;
-}
-
-.feature-card:hover .white-icon {
-    display: block;
 }
