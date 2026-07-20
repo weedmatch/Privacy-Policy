@@ -1066,14 +1066,12 @@ body {
 
     display: flex;
     justify-content: center;
-    align-items: stretch;
     gap: 40px;
 }
 
 
 .bottom-feature-card {
-    flex: 1;
-    max-width: 460px;
+    flex: 0 0 420px;
 
     background: #F6FEFF;
 
