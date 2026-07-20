@@ -1104,8 +1104,36 @@ body {
 }
 
 
+/* Card Icons */
 
-/* Hover */
+.card-icon-wrapper {
+    position: relative;
+    width: 55px;
+    height: 55px;
+    margin: 0 auto 20px;
+}
+
+
+.card-icon {
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+.green-icon {
+    opacity: 1;
+}
+
+
+.white-icon {
+    opacity: 0;
+}
+
+
+/* Card Hover */
 
 .bottom-feature-card:hover {
     background: #00500D;
