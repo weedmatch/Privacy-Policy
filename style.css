@@ -1332,6 +1332,14 @@ body {
 
 @media (max-width: 700px) {
 
+    .unique-features-container {
+        grid-template-columns: 1fr;
+        gap: 60px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
     .feature-row {
         width: 100%;
         display: flex;
@@ -1341,67 +1349,46 @@ body {
     }
 
 
-    /* BA + WP */
-    .feature-row:nth-child(1),
-    .feature-row:nth-child(2) {
-
-        flex-direction: column;
-        align-items: stretch;
-    }
-
-
-    .feature-row:nth-child(1) .feature-content,
-    .feature-row:nth-child(2) .feature-content {
-
+    .feature-content {
         width: 100%;
         max-width: none;
         flex: none;
         text-align: left;
-        align-self: stretch;
     }
 
 
-    .feature-row:nth-child(1) .feature-content h2,
-    .feature-row:nth-child(1) .feature-content p,
-    .feature-row:nth-child(2) .feature-content h2,
-    .feature-row:nth-child(2) .feature-content p {
-
+    .feature-content h2,
+    .feature-content p {
         width: 100%;
         max-width: none;
         text-align: left;
     }
 
 
-    /* QR - keep vertical like the others */
+    /* QR reset */
     .feature-row:nth-child(3) {
-
+        grid-column: auto;
         flex-direction: column;
         align-items: stretch;
     }
 
 
-    .feature-row:nth-child(3) .feature-content {
-
-        width: 100%;
-        max-width: none;
-        text-align: left;
-        align-self: stretch;
-    }
-
-
-    .feature-row:nth-child(3) .feature-content h2,
-    .feature-row:nth-child(3) .feature-content p {
-
-        width: 100%;
-        max-width: none;
-        text-align: left;
-    }
-
-
     .qr-links-box {
-
         margin-left: auto;
         margin-right: auto;
+    }
+
+
+    .bottom-feature-cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+
+
+    .bottom-feature-card {
+        width: 100%;
+        max-width: 350px;
     }
 
 }
