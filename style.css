@@ -1188,6 +1188,26 @@ body {
 }
 
 
+@media (max-width: 850px) {
+
+    .unique-features-container {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+
+    .feature-row {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 24px;
+    }
+
+    .feature-content {
+        max-width: 400px;
+    }
+
+}
+
 /* Bottom Cards Responsive Breakpoint */
 
 @media (max-width: 1100px) {
@@ -1218,17 +1238,3 @@ body {
         max-width: 350px;
         flex: 0 0 auto;
     }
-
-
-    /* Video Feature Mobile */
-
-    .unique-features-container {
-        grid-template-columns: 1fr;
-        gap: 60px;
-    }
-
-    .feature-row {
-        justify-content: center;
-    }
-
-}
