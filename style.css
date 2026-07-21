@@ -1404,180 +1404,328 @@ body {
 
 
 
-/* INTRO SECTION */
+/* ==========================
+   INTRO SECTION
+========================== */
+
+
 .intro-section {
-    background-color: #00500D;
+
     width: 100%;
-    padding: 100px 0;
-    color: #F6FEFF;
+
+    background: rgba(0, 80, 13, 0.9);
+
 }
+
 
 .intro-container {
-    max-width: 1500px;
-    margin: 0 auto;
-    padding: 0 40px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 60px;
-    align-items: center;
-}
 
-/* LEFT COLUMN */
-.intro-left {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    text-align: left;
-}
-
-/* INTRO title + leaf image row */
-.intro-heading {
-    display: flex;
-    align-items: center;
-    gap: 25px;
-    margin-bottom: 30px;
-}
-
-.intro-left h2 {
-    font-family: 'Sancreek', cursive;
-    font-size: 32px;
-    margin: 0;
-}
-
-.intro-left img {
-    width: 90px;
-    height: auto;
-    object-fit: contain;
-}
-
-
-/* INTRO DESCRIPTION */
-.intro-text {
-    text-align: left;
-}
-
-.intro-text h3 {
-    font-family: 'Sancreek', cursive;
-    font-size: 20px;
-    margin-bottom: 20px;
-}
-
-.intro-text p {
-    font-family: 'Inder', sans-serif;
-    font-size: 16px;
-    line-height: 1.6;
-    max-width: 420px;
-}
-
-
-/* WHY USE INTRO */
-.intro-left > h3 {
-    font-family: 'Sancreek', cursive;
-    font-size: 22px;
-    margin-top: 35px;
-    margin-bottom: 15px;
-}
-
-.intro-left ul {
-    list-style-type: disc;
-    padding-left: 25px;
-    font-family: 'Inder', sans-serif;
-    font-size: 16px;
-    line-height: 1.8;
-}
-
-
-/* CENTER VIDEO */
-.intro-video {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.intro-video video {
     width: 100%;
-    max-width: 350px;
-    border-radius: 20px;
-    object-fit: cover;
-}
+    max-width: 1500px;
 
+    margin: 0 auto;
 
-/* RIGHT COLUMN */
-.intro-right {
-    display: flex;
-    flex-direction: column;
+    padding: 80px 40px;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
     align-items: center;
-    text-align: center;
+
+    gap: 40px;
+
 }
 
-.intro-right img {
-    width: 280px;
+
+
+/* Column 1 */
+
+.intro-content {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    text-align: left;
+
+}
+
+
+.intro-title-row {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 10px;
+
+    margin-bottom: 24px;
+
+}
+
+
+.intro-title-row h2 {
+
+    font-family: 'Overlock', sans-serif;
+
+    font-weight: 700;
+
+    color: #F6FEFF;
+
+    font-size: 28px;
+
+}
+
+
+.intro-title-row img {
+
+    width: 70px;
+
     height: auto;
-    object-fit: contain;
-    margin-bottom: 30px;
+
 }
 
-.intro-right p {
+
+
+.intro-description {
+
     font-family: 'Inder', sans-serif;
-    font-size: 18px;
+
+    color: #F6FEFF;
+
+    font-size: 16px;
+
     line-height: 1.5;
+
+    width: 100%;
+
 }
 
-.intro-right h3 {
-    font-family: 'Sancreek', cursive;
+
+
+.intro-subtitle {
+
+    width: 100%;
+
+    margin-top: 32px;
+
+    margin-bottom: 16px;
+
+    font-family: 'Overlock', sans-serif;
+
+    font-weight: 700;
+
+    color: #F6FEFF;
+
+    font-size: 22px;
+
+}
+
+
+
+.intro-benefits {
+
+    width: 100%;
+
+    padding-left: 20px;
+
+    font-family: 'Inder', sans-serif;
+
+    color: #F6FEFF;
+
+    font-size: 16px;
+
+    line-height: 1.8;
+
+}
+
+
+
+
+/* Video */
+
+.intro-video-container {
+
+    display: flex;
+
+    justify-content: center;
+
+}
+
+
+.intro-video-frame {
+
+    width: 160px;
+
+    border: 3px solid #000;
+
+    border-radius: 26px;
+
+    overflow: hidden;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+
+}
+
+
+.intro-video-frame video {
+
+    width: 100%;
+
+    height: auto;
+
+    display: block;
+
+}
+
+
+
+
+/* Right Column */
+
+
+.intro-right {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    text-align: center;
+
+}
+
+
+.intro-weed-image {
+
+    width: 260px;
+
+    max-width: 100%;
+
+    height: auto;
+
+}
+
+
+
+.intro-right-text {
+
+    margin-top: 24px;
+
+    font-family: 'Inder', sans-serif;
+
+    color: #F6FEFF;
+
+    font-size: 16px;
+
+    line-height: 1.5;
+
+}
+
+
+.weed-buddies-title {
+
+    margin-top: 32px;
+
+    font-family: 'Overlock', sans-serif;
+
+    font-weight: 700;
+
+    color: #F6FEFF;
+
     font-size: 24px;
-    margin-top: 35px;
+
 }
 
 
-/* TABLET */
-@media (max-width: 1000px) {
+
+
+
+/* 850 Breakpoint */
+
+@media (max-width: 850px) {
+
 
     .intro-container {
-        grid-template-columns: 1fr;
-        gap: 50px;
+
+        grid-template-columns: 1fr 1fr;
+
+        gap: 60px;
+
+        padding: 60px 40px;
+
     }
 
-    .intro-video {
-        order: 2;
-    }
 
-    .intro-left {
-        order: 1;
-    }
 
     .intro-right {
-        order: 3;
+
+        grid-column: 1 / -1;
+
     }
+
 
 }
 
 
-/* MOBILE */
-@media (max-width: 600px) {
 
-    .intro-section {
-        padding: 70px 20px;
-    }
+/* 700 Breakpoint */
+
+@media (max-width: 700px) {
+
 
     .intro-container {
-        padding: 0;
+
+        grid-template-columns: 1fr;
+
+        padding: 50px 20px;
+
+        gap: 60px;
+
     }
 
-    .intro-left h2 {
-        font-size: 28px;
+
+
+    .intro-content {
+
+        align-items: center;
+
     }
 
-    .intro-left img {
-        width: 170px;
+
+    .intro-description,
+    .intro-benefits {
+
+        text-align: left;
+
     }
 
-    .intro-video video {
-        max-width: 280px;
+
+    .intro-video-frame {
+
+        width: 160px;
+
     }
 
-    .intro-right img {
-        width: 220px;
+
+    .intro-right {
+
+        grid-column: auto;
+
     }
+
+
+    .intro-weed-image {
+
+        width: 240px;
+
+    }
+
 
 }
