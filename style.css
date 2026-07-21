@@ -1060,16 +1060,14 @@ body {
 
 .bottom-feature-cards {
     width: 100%;
-    max-width: 1500px;
-
-    margin: 32px auto 0;
-    padding: 0 16px;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
     gap: 40px;
+
+    margin: 40px auto 0;
 }
 
 .bottom-feature-card h3 {
@@ -1081,15 +1079,15 @@ body {
 }
 
 .bottom-feature-card {
-    width: fit-content;
-    flex: 0 0 auto;
+    flex: 0 0 420px;
+    width: 420px;
 
     background: #F6FEFF;
 
     border: 2px solid #00500D;
     border-radius: 16px;
 
-    padding: 16px 16px 16px 16px;
+    padding: 16px;
 
     text-align: center;
 
