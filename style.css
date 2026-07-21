@@ -1209,9 +1209,20 @@ body {
     .qr-links-box {
     margin-left: auto;
     margin-right: auto;
-
+    }
+    
+    .feature-content {
+    width: 100%;
+    max-width: 100%;
+    text-align: left;
 }
 
+.feature-content h2,
+.feature-content p {
+    text-align: left;
+}
+
+    
     
 /* Bottom Cards Responsive Breakpoint */
 
