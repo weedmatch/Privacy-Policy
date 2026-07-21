@@ -1355,28 +1355,27 @@ body {
 
     /* All feature rows stack vertically */
     .feature-row {
-        flex-direction: column;
-        justify-content: center;
-        align-items: stretch;
-        gap: 24px;
-        width: 100%;
-    }
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    width: 100%;
+}
 
 
-  /* All feature content */
 .feature-content {
     width: 100%;
     max-width: none;
-    flex: none;
+    flex: 1;
     text-align: left;
 }
 
 
 .feature-content h2,
 .feature-content p {
+    width: 100%;
     text-align: left;
 }
-
 
 .feature-content p {
     width: 100%;
