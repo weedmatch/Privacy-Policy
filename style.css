@@ -216,6 +216,13 @@ body {
     white-space: nowrap;
 }
 
+.contact-button,
+.contact-toggle,
+.contact-menu,
+.contact-menu a {
+    font-family: 'Inder', sans-serif;
+    font-size: 16px;
+}
 
 /* Hover Effects */
 
