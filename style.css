@@ -936,6 +936,13 @@ body {
     background: transparent;
 }
 
+.section-title {
+    text-align: center;
+    font-family: 'Sancreek', cursive;
+    color: #00500D;
+    font-size: 28px;
+    margin-bottom: 60px;
+}
 
 /* Video Feature Blocks */
 
