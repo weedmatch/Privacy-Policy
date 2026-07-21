@@ -1341,10 +1341,10 @@ body {
 
 
     .feature-row {
-        flex-direction: column;
         width: 100%;
-        gap: 24px;
+        flex-direction: column;
         align-items: center;
+        gap: 24px;
     }
 
 
@@ -1356,35 +1356,24 @@ body {
 
 
     .feature-content {
-    width: 100%;
-    max-width: none;
-    flex: none;
-    text-align: left;
-    align-self: stretch;
-}
-
-
-.feature-content h2,
-.feature-content p {
-    width: 100%;
-    max-width: none;
-    text-align: left;
-}
-
-
-    /* QR stays same structure as other features */
-    .feature-row:nth-child(3) {
-        grid-column: auto;
         width: 100%;
-        flex-direction: column;
-        align-items: center;
+        max-width: 100%;
+        text-align: left;
+        align-self: stretch;
     }
 
 
-    .feature-row:nth-child(3) .feature-content {
+    .feature-content h2,
+    .feature-content p {
         width: 100%;
-        max-width: none;
+        max-width: 100%;
         text-align: left;
+    }
+
+
+    .feature-row:nth-child(3) {
+        width: 100%;
+        grid-column: auto;
     }
 
 
