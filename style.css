@@ -1167,7 +1167,7 @@ body {
 
 
 
-/* Video Feature Responsive Breakpoint */
+/* Video Feature Breakpoint */
 
 @media (max-width: 1300px) {
 
@@ -1177,7 +1177,7 @@ body {
     }
 
     .feature-row {
-        max-width: 900px;
+        max-width: 700px;
         margin: 0 auto;
     }
 
