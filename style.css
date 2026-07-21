@@ -950,7 +950,7 @@ body {
 
 .unique-features-section {
     width: 100%;
-    background: rgba(246, 254, 255, 0.9);
+    background: rgba(246, 254, 255, 0.8);
 }
 
 .section-title {
@@ -960,7 +960,8 @@ body {
     font-size: 28px;
     font-weight: 700;
 
-    margin-top: 100px;
+    padding-top: 100px;
+    margin-top: 0;
     margin-bottom: 64px;
 }
 
