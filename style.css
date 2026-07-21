@@ -1366,6 +1366,7 @@ body {
   /* All feature content */
 .feature-content {
     width: 100%;
+    max-width: none;
     flex: none;
     text-align: left;
 }
@@ -1377,11 +1378,10 @@ body {
 }
 
 
-    .feature-content p {
-        width: 100%;
-        max-width: none;
-    }
-
+.feature-content p {
+    width: 100%;
+    max-width: none;
+}
 
     /* QR feature resets from 850px breakpoint */
     .feature-row:nth-child(3) {
