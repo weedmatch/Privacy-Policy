@@ -1679,110 +1679,104 @@ body {
 
 @media (max-width: 700px) {
 
+
     .intro-container {
-        display: flex;
-        flex-direction: column;
+        grid-template-columns: 1fr 1fr;
         gap: 40px;
         padding: 40px 20px;
     }
 
 
-    /* INTRO COLUMN */
+    /* INTRO SECTION TOP */
     .intro-content {
+        grid-column: 1 / -1;
         width: 100%;
-        text-align: left;
+        text-align: center;
     }
 
 
-    /* Only INTRO title + leaf centered */
     .intro-title-row {
         justify-content: center;
-        align-items: center;
+        text-align: center;
     }
 
 
-    /* Paragraph fills screen */
     .intro-description {
         width: 100%;
         max-width: none;
-        text-align: left;
+        text-align: center;
     }
 
 
-    /* Why Use INTRO stays left */
-    .intro-subtitle {
+    /* WHY USE INTRO LEFT */
+    .intro-subtitle,
+    .intro-benefits {
         text-align: left;
     }
 
 
     .intro-benefits {
-        text-align: left;
         padding-left: 20px;
     }
 
 
 
-    /* VIDEO + WEED BLOCK SIDE BY SIDE */
-    .intro-media-row {
-
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        align-items: start;
-        gap: 20px;
-
-        width: 100%;
-    }
-
-
-
-    /* VIDEO */
+    /* VIDEO LEFT */
     .intro-video-container {
-
         width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
 
-    .intro-video-frame video {
-
+    .intro-video-frame {
         width: 100%;
-        height: auto;
-
+        max-width: 220px;
     }
 
 
 
-    /* WEED BLOCK */
+    /* RIGHT SIDE WEED CONTENT */
     .intro-right {
-
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
-
     }
 
 
     .intro-weed-image {
-
         width: 100%;
         max-width: 220px;
-
     }
 
 
-    .intro-right-text {
-
-        width: 100%;
-        text-align: center;
-
-    }
-
-
+    .intro-right-text,
     .weed-buddies-title {
-
         text-align: center;
-
+        width: 100%;
     }
+
+
+}
+
+
+
+
+/* Smaller phones */
+@media (max-width: 500px) {
+
+
+    .intro-container {
+        grid-template-columns: 1fr;
+    }
+
+
+    .intro-video-container,
+    .intro-right {
+        grid-column: 1 / -1;
+    }
+
 
 }
