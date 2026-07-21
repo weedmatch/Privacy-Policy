@@ -1340,63 +1340,54 @@ body {
     }
 
 
-    /* BA + WP only */
-    .feature-row:nth-child(1),
-    .feature-row:nth-child(2) {
+    /* ALL FEATURE ROWS VERTICAL */
+    .feature-row {
+        width: 100%;
         flex-direction: column;
         align-items: stretch;
-        width: 100%;
         gap: 24px;
     }
 
 
-    .feature-row:nth-child(1) .feature-content,
-    .feature-row:nth-child(2) .feature-content {
-        width: 100%;
-        max-width: none;
-        text-align: left;
+    /* ALL FEATURE CONTENT FULL WIDTH + LEFT ALIGN */
+    .feature-content {
+        width: 100% !important;
+        max-width: none !important;
+        text-align: left !important;
+        align-self: stretch;
     }
 
 
-    .feature-row:nth-child(1) .feature-content h2,
-    .feature-row:nth-child(1) .feature-content p,
-    .feature-row:nth-child(2) .feature-content h2,
-    .feature-row:nth-child(2) .feature-content p {
-        width: 100%;
-        max-width: none;
-        text-align: left;
+    .feature-content h2,
+    .feature-content p {
+        width: 100% !important;
+        max-width: none !important;
+        text-align: left !important;
     }
 
 
-    /* QR becomes vertical */
-.feature-row:nth-child(3) {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
+    /* QR SAME AS OTHERS */
+    .feature-row:nth-child(3) {
+        flex-direction: column;
+        align-items: stretch;
+        width: 100%;
+    }
 
 
-.feature-row:nth-child(3) .feature-content {
-    width: 100%;
-    max-width: none;
-    text-align: left;
-}
+    .feature-row:nth-child(3) .feature-content {
+        width: 100% !important;
+        max-width: none !important;
+        text-align: left !important;
+    }
 
 
-.feature-row:nth-child(3) .feature-content h2,
-.feature-row:nth-child(3) .feature-content p {
-    width: 100%;
-    text-align: left;
-}
+    .qr-links-box {
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 
-.qr-links-box {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
+    /* Bottom Cards */
     .bottom-feature-cards {
         flex-direction: column;
         align-items: center;
