@@ -154,7 +154,7 @@ body {
 
 /* Tagline */
 .brand p {
-    font-family: 'Sancreek', cursive;
+    font-family: 'Overlock', cursive;
     color: #F6FEFF;
     font-size: 24px;
     margin-top: 16px;
@@ -325,7 +325,7 @@ body {
 
 
 .carousel-content h1 {
-    font-family: 'Sancreek', cursive;
+    font-family: 'Overlock', cursive;
     color: #F6FEFF;
     font-size: 24px;
     margin-bottom: 15px;
@@ -699,7 +699,7 @@ body {
 }
 
 .swipe-title {
-    font-family: 'Sancreek', cursive;
+    font-family: 'Overlock', cursive;
     color: #F6FEFF;
 }
 
@@ -938,7 +938,7 @@ body {
 
 .section-title {
     text-align: center;
-    font-family: 'Sancreek', cursive;
+    font-family: 'Overlock', cursive;
     color: #00500D;
     font-size: 28px;
 
@@ -1007,7 +1007,7 @@ body {
 
 
 .feature-content h2 {
-    font-family: 'Sancreek', cursive;
+    font-family: 'Overlock', cursive;
     color: #00500D;
     font-size: 24px;
     margin-bottom: 16px;
@@ -1082,7 +1082,7 @@ body {
 
 .bottom-feature-card h3 {
     text-align: center;
-    font-family: 'Sancreek', cursive;
+    font-family: 'Overlock', cursive;
     color: #00500D;
     font-size: 22px;
     margin-bottom: 8px;
