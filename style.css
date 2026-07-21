@@ -1677,56 +1677,49 @@ body {
 
 /* 700 Breakpoint */
 
-/* INTRO TABLET / MOBILE CONTROL */
-
 @media (max-width: 700px) {
 
     .intro-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 30px;
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+        gap: 40px;
         padding: 40px 20px;
     }
 
 
-    /* INTRO TOP */
+    /* INTRO FULL WIDTH TOP */
     .intro-content {
-        grid-column: 1 / -1;
-        width: 100%;
-        max-width: none;
+        grid-column: 1 / -1 !important;
+        width: 100% !important;
+        max-width: none !important;
         text-align: left;
     }
 
 
     .intro-title-row {
-        width: 100%;
+        display: flex;
         justify-content: center;
+        width: 100%;
     }
 
 
     .intro-description {
-        width: 100%;
-        max-width: none;
+        width: 100% !important;
+        max-width: none !important;
         text-align: left;
     }
 
 
-    .intro-subtitle {
-        width: 100%;
-        text-align: left;
-    }
-
-
+    .intro-subtitle,
     .intro-benefits {
-        width: 100%;
         text-align: left;
     }
 
 
 
-    /* VIDEO LEFT */
+    /* VIDEO */
     .intro-video-container {
-        grid-column: 1;
+        grid-column: 1 !important;
         width: 100%;
     }
 
@@ -1734,25 +1727,19 @@ body {
     .intro-video-frame {
         width: 100%;
         max-width: 220px;
-        margin: 0 auto;
-    }
-
-
-    .intro-video-frame video {
-        width: 100%;
-        height: auto;
+        margin: auto;
     }
 
 
 
-    /* WEED BLOCK RIGHT */
+    /* WEED GROUP */
     .intro-right {
-        grid-column: 2;
+        grid-column: 2 !important;
         width: 100%;
-        max-width: none;
-        display: flex;
-        flex-direction: column;
+        display: flex !important;
+        flex-direction: column !important;
         align-items: center;
+        text-align: center;
     }
 
 
@@ -1761,15 +1748,7 @@ body {
         max-width: 220px;
     }
 
-
-    .intro-right-text,
-    .weed-buddies-title {
-        width: 100%;
-        text-align: center;
-    }
-
 }
-
 
 
 
@@ -1788,8 +1767,8 @@ body {
 
     /* INTRO */
     .intro-content {
-        width: 100%;
-        max-width: none;
+        width: 100% !important;
+        max-width: none !important;
         text-align: left;
     }
 
@@ -1801,9 +1780,11 @@ body {
 
 
     .intro-description {
-        width: 100%;
+        width: 100% !important;
         max-width: none;
         text-align: left;
+        
+        max-width: none !important;
     }
 
 
