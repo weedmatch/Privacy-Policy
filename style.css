@@ -1280,13 +1280,18 @@ body {
     }
 
 
+    /* Keep titles centered, paragraphs left */
     .feature-row:nth-child(1) .feature-content h2,
-    .feature-row:nth-child(2) .feature-content h2,
+    .feature-row:nth-child(2) .feature-content h2 {
+
+        text-align: center;
+    }
+
 
     .feature-row:nth-child(1) .feature-content p,
     .feature-row:nth-child(2) .feature-content p {
 
-        text-align: center;
+        text-align: left;
     }
 
 
@@ -1298,7 +1303,12 @@ body {
     }
 
 
-    .feature-row:nth-child(3) .feature-content h2,
+    .feature-row:nth-child(3) .feature-content h2 {
+
+        text-align: left;
+    }
+
+
     .feature-row:nth-child(3) .feature-content p {
 
         text-align: left;
