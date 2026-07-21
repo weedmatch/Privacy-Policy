@@ -1235,6 +1235,69 @@ body {
 }
 
 
+@media (max-width: 850px) {
+
+    @media (max-width: 850px) {
+
+    .unique-features-container {
+        grid-template-columns: 1fr;
+        gap: 60px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+
+    .feature-row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+        width: 100%;
+    }
+
+
+    .feature-video {
+        width: 100%;
+        justify-content: center;
+    }
+
+
+    .feature-content {
+        width: 100%;
+        max-width: 500px;
+        text-align: center;
+    }
+
+
+    .feature-content h2,
+    .feature-content p {
+        text-align: center;
+    }
+
+
+    /* QR section keeps links beside icon/content */
+    .feature-row:nth-child(3) .feature-content {
+        max-width: 600px;
+    }
+
+
+    .feature-row:nth-child(3) .qr-links-box {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        width: 100%;
+    }
+
+
+    .qr-links-box a {
+        white-space: nowrap;
+    }
+
+}
+    
+
 @media (max-width: 700px) {
 
     .bottom-feature-cards {
