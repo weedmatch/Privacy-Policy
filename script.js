@@ -81,59 +81,68 @@ const selectedLanguage = document.querySelector(".selected-language");
 const languageOption = document.querySelector(".language-option");
 
 
-languageSelector.addEventListener("click", () => {
+// Language Dropdown
 
-    languageWrapper.classList.toggle("open");
+if (languageSelector && languageWrapper) {
 
-});
+    languageSelector.addEventListener("click", (event) => {
+        event.stopPropagation();
+        languageWrapper.classList.toggle("open");
+    });
+
+}
 
 
-languageOption.addEventListener("click", () => {
+if (languageOption && selectedLanguage && languageWrapper) {
 
-    if(selectedLanguage.textContent === "English") {
+    languageOption.addEventListener("click", () => {
 
-        selectedLanguage.textContent = "Deutsch";
-        languageOption.textContent = "English";
+        if (selectedLanguage.textContent.trim() === "English") {
 
-    } else {
+            selectedLanguage.textContent = "Deutsch";
+            languageOption.textContent = "English";
 
-        selectedLanguage.textContent = "English";
-        languageOption.textContent = "Deutsch";
+        } else {
 
-    }
+            selectedLanguage.textContent = "English";
+            languageOption.textContent = "Deutsch";
 
-    languageWrapper.classList.remove("open");
+        }
 
-});
+        languageWrapper.classList.remove("open");
+
+    });
+
+}
+
 
 // Contact Dropdown
 
 const contactWrapper = document.querySelector(".contact-wrapper");
 const contactToggle = document.querySelector(".contact-toggle");
 
-if (contactToggle) {
 
-    contactToggle.addEventListener("click", () => {
+if (contactToggle && contactWrapper) {
 
+    contactToggle.addEventListener("click", (event) => {
+        event.stopPropagation();
         contactWrapper.classList.toggle("open");
-
     });
 
 }
 
-document.addEventListener("click", function(event) {
 
-    const language = document.querySelector(".language-wrapper");
-    const contact = document.querySelector(".contact-wrapper");
+// Close Dropdowns When Clicking Outside
 
+document.addEventListener("click", (event) => {
 
-    if (!event.target.closest(".language-wrapper")) {
-        language.classList.remove("open");
+    if (languageWrapper && !event.target.closest(".language-wrapper")) {
+        languageWrapper.classList.remove("open");
     }
 
 
-    if (!event.target.closest(".contact-wrapper")) {
-        contact.classList.remove("open");
+    if (contactWrapper && !event.target.closest(".contact-wrapper")) {
+        contactWrapper.classList.remove("open");
     }
 
 });
