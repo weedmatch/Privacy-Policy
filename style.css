@@ -943,7 +943,7 @@ body {
     width: 100%;
     max-width: 1500px;
     margin: 0 auto;
-    padding: 100px 40px;
+    padding: 100px 40px 100px;
 
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -1061,7 +1061,7 @@ body {
     width: 100%;
     max-width: 1500px;
 
-    margin: 64px auto 0;
+    margin: 40px auto 0;
     padding: 0 16px;
 
     display: flex;
@@ -1069,7 +1069,6 @@ body {
     align-items: center;
 
     gap: 40px;
-    padding-bottom: 100px;
 }
 
 .bottom-feature-card h3 {
