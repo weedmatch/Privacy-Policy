@@ -1344,6 +1344,7 @@ body {
         flex: 0 0 auto;
     }
 
+
     .unique-features-container {
         grid-template-columns: 1fr;
         gap: 60px;
@@ -1352,13 +1353,17 @@ body {
     }
 
 
+    /* All feature rows stack vertically */
     .feature-row {
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         gap: 24px;
+        width: 100%;
     }
 
 
+    /* All feature content */
     .feature-content {
         width: 100%;
         max-width: none;
@@ -1379,10 +1384,32 @@ body {
     }
 
 
+    /* QR feature resets from 850px breakpoint */
+    .feature-row:nth-child(3) {
+        grid-column: auto;
+        justify-self: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .feature-row:nth-child(3) .feature-content {
+        width: 100%;
+        max-width: none;
+        text-align: left;
+    }
+
+
+    .feature-row:nth-child(3) .feature-content h2,
+    .feature-row:nth-child(3) .feature-content p {
+        text-align: left;
+    }
+
+
+    /* Center QR links box */
     .qr-links-box {
         margin-left: auto;
         margin-right: auto;
     }
 
 }
-
