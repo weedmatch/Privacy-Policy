@@ -1081,7 +1081,8 @@ body {
 }
 
 .bottom-feature-card {
-    flex: 0 0 420px;
+    width: fit-content;
+    flex: 0 0 auto;
 
     background: #F6FEFF;
 
