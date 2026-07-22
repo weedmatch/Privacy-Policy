@@ -1953,7 +1953,7 @@ body {
 
     left: 0;
     width: 100%;
-    padding: 16px 16px;
+    padding: 12px 12px;
     border-radius: 0;
 
     background: rgba(255,255,255,0.7);
@@ -2088,7 +2088,7 @@ body {
 
     width: 180px;
     height: auto;
-    margin-top: -36px;
+    margin-top: -32px;
 
     position: relative;
     z-index: 2;
