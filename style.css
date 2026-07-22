@@ -2328,8 +2328,8 @@ body {
     .tag-card:nth-child(3) {
 
     grid-column: 1 / -1;
-    min-width: 260px;
-    max-width: 260px;
+    min-width: 320px;
+    max-width: 320px;
     justify-self: center;
 
 }
