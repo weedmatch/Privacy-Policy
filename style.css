@@ -2315,11 +2315,23 @@ body {
 @media (max-width: 850px) {
 
     .tags-container {
-        grid-template-columns: 1fr 1fr;
 
-        gap: 30px;
-    }
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
 
+}
+
+    .tag-card:nth-child(3) {
+
+    grid-column: 1 / -1;
+
+    width: 260px;
+
+    justify-self: center;
+
+}
+    
     .tag-card {
         width: 100%;
         min-width: 0;
