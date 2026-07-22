@@ -2150,7 +2150,7 @@ body {
 
 /* 500 BREAKPOINT */
 
-@media (max-width: 500px) {
+@media (max-width: 650px) {
 
     .enthusiasts-container {
         grid-template-columns: 1fr;
