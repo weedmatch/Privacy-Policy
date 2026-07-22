@@ -1803,23 +1803,23 @@ body {
 
 
 .ticker-track {
-
     display: flex;
     align-items: center;
-
-    gap: 60px;
     width: max-content;
     animation: logoTicker 25s linear infinite;
-
 }
+
 
 .ticker-set {
+
     display: flex;
     align-items: center;
-    gap: 60px;
-    flex-shrink: 0;
-}
 
+    gap: 60px;
+
+    flex-shrink: 0;
+
+}
 .ticker-track a {
 
     width: 80px;
