@@ -146,3 +146,28 @@ document.addEventListener("click", (event) => {
     }
 
 });
+
+
+
+
+const ticker = document.querySelector(".ticker-track");
+
+let position = 0;
+const speed = 0.5;
+
+function moveTicker() {
+
+    position -= speed;
+
+    const firstSet = ticker.querySelector(".ticker-set");
+
+    if (Math.abs(position) >= firstSet.offsetWidth) {
+        position = 0;
+    }
+
+    ticker.style.transform = `translateX(${position}px)`;
+
+    requestAnimationFrame(moveTicker);
+}
+
+moveTicker();
