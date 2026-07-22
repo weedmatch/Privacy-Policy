@@ -1926,21 +1926,26 @@ body {
 
 
 .weed-selection-image {
+    
     position: relative;
     width: 100%;
+    max-width: 260px;
+    overflow: visible;
 
-    max-width: 330px;
-    overflow: hidden;
     border-radius: 20px;
+    filter: drop-shadow(0 10px 20px rgba(0,0,0,0.25));
+
 }
 
 
 .weed-selection-image img {
-    width: 100%;
 
+    width: 100%;
     height: auto;
     display: block;
     object-fit: contain;
+    border-radius: 20px;
+
 }
 
 
@@ -1971,12 +1976,13 @@ body {
 }
 
 .enthusiasts-tag-image img {
-
-    width: 200px;
+    width: 180px;
     height: auto;
     object-fit: contain;
 
+    filter: drop-shadow(0 8px 15px rgba(0,0,0,0.25));
 }
+
 
 .enthusiasts-tag-text {
     margin-top: 20px;
@@ -2089,9 +2095,11 @@ body {
 
 .i-dont-image {
 
-    width: 200px;
+    width: 180px;
     height: auto;
     margin-top: 20px;
+
+    filter: drop-shadow(0 8px 15px rgba(0,0,0,0.25));
 
 }
 
