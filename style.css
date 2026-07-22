@@ -2171,3 +2171,157 @@ body {
     }
     
 }
+
+
+
+
+
+
+
+
+
+
+/* ============================= */
+/* WEED MATCH TAGS SECTION */
+/* ============================= */
+
+
+.tags-section {
+
+    width: 100%;
+
+    background: rgba(0,80,13,0.85);
+
+    padding: 80px 0 100px;
+
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        100% 95%,
+        0 100%
+    );
+
+}
+
+
+
+.tags-container {
+
+    width: 90%;
+
+    max-width: 1500px;
+
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 40px;
+
+}
+
+
+
+.tag-card {
+
+    background: #F6FEFF;
+
+    border: 2px solid #00500D;
+
+    border-radius: 20px;
+
+    padding: 40px 30px;
+
+    text-align: center;
+
+    color: #00500D;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+
+    transition: 
+        background .35s ease,
+        color .35s ease,
+        border .35s ease,
+        transform .35s ease;
+
+}
+
+
+
+.tag-card:hover {
+
+    background: #00500D;
+
+    color: #F6FEFF;
+
+    border-color: #F6FEFF;
+
+    transform: translateY(-8px);
+
+}
+
+
+
+.tag-icon {
+
+    width: 70px;
+
+    height: 70px;
+
+    object-fit: contain;
+
+    margin-bottom: 25px;
+
+}
+
+
+
+.icon-hover {
+
+    display: none;
+
+}
+
+
+
+.tag-card:hover .icon-default {
+
+    display: none;
+
+}
+
+
+
+.tag-card:hover .icon-hover {
+
+    display: inline-block;
+
+}
+
+
+
+.tag-card h3 {
+
+    font-family: 'Overlock', sans-serif;
+
+    font-weight: 700;
+
+    font-size: 24px;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+.tag-card p {
+
+    font-family: 'Inder', sans-serif;
+
+    font-size: 16px;
+
+    line-height: 1.7;
+
+}
+
