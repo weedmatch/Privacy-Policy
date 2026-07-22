@@ -2452,14 +2452,9 @@ body {
 
     padding: 50px;
 
-    background: #F6FEFF;
-
     border-radius: 30px;
 
-    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-
 }
-
 
 
 .contact-content,
@@ -2528,6 +2523,8 @@ body {
     border-radius: 20px;
 
     overflow: hidden;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
 
 }
 
