@@ -630,107 +630,79 @@
 
 
     
-   /* LINKS SECTION */
+<!-- Links Ticker Section -->
 
-.links-section {
-    width: 100%;
-    background: transparent;
-}
+<section class="links-section">
 
 
-.links-container {
-
-    width: 100%;
-    max-width: 1500px;
-    margin: 0 auto;
-    padding: 60px 40px;
-
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    overflow: hidden;
-}
+    <div class="links-container">
 
 
-.links-title {
-    flex-shrink: 0;
-
-    font-family: 'Sancreek', sans-serif;
-    font-size: 28px;
-    color: #00500D;
-
-}
+        <h2 class="links-title">
+            Links
+        </h2>
 
 
-/* TICKER */
 
-.ticker-wrapper {
-
-    flex: 1;
-    overflow: hidden;
-
-    position: relative;
-
-    mask-image: linear-gradient(
-        to right,
-        transparent,
-        black 10%,
-        black 90%,
-        transparent
-    );
-
-    -webkit-mask-image: linear-gradient(
-        to right,
-        transparent,
-        black 10%,
-        black 90%,
-        transparent
-    );
-
-}
+        <div class="ticker-wrapper">
 
 
-.ticker-track {
+            <div class="ticker-track">
 
-    display: flex;
-    align-items: center;
 
-    gap: 60px;
-    width: max-content;
-    animation: logoTicker 25s linear infinite;
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScVTIOOdbUJV9QoDYIU9YzP6MgNE5QOnMY_2gLRpHkIwErt3A/viewform" target="_blank">
+                    <img src="assets/images/logo-link-1.png" alt="Link 1">
+                </a>
 
-}
 
-.ticker-track a {
+                <a href="https://www.dutch-headshop.eu/blog/germany-cannabis-legalization" target="_blank">
+                    <img src="assets/images/logo-link-2.png" alt="Link 2">
+                </a>
 
-    display: flex;
 
-    align-items: center;
+                <a href="https://cannabis-akademie.com/en/" target="_blank">
+                    <img src="assets/images/logo-link-3.png" alt="Link 3">
+                </a>
 
-}
 
-.ticker-track img {
+                <a href="https://cscsdeutschland.de/" target="_blank">
+                    <img src="assets/images/logo-link-4.png" alt="Link 4">
+                </a>
 
-    width: clamp(70px, 8vw, 130px);
-    height: auto;
-    object-fit: contain;
-    filter: blur(0);
-    transition: transform .3s ease;
 
-}
+                <a href="https://aachen-social-club.de/" target="_blank">
+                    <img src="assets/images/logo-link-5.png" alt="Link 5">
+                </a>
 
-.ticker-track img:hover {
 
-    transform: scale(1.1);
-}
+                <a href="https://biotabs.nl/en/blog/germany-embraces-cannabis/" target="_blank">
+                    <img src="assets/images/logo-link-6.png" alt="Link 6">
+                </a>
 
-@keyframes logoTicker {
 
-    from {
-        transform: translateX(0);
-    }
-    to {
-        transform: translateX(-50%);
-    }
 
-}
+                <!-- Duplicate logos for infinite loop -->
+
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScVTIOOdbUJV9QoDYIU9YzP6MgNE5QOnMY_2gLRpHkIwErt3A/viewform" target="_blank">
+                    <img src="assets/images/logo-link-1.png" alt="Link 1">
+                </a>
+
+                <a href="https://www.dutch-headshop.eu/blog/germany-cannabis-legalization" target="_blank">
+                    <img src="assets/images/logo-link-2.png" alt="Link 2">
+                </a>
+
+                <a href="https://cannabis-akademie.com/en/" target="_blank">
+                    <img src="assets/images/logo-link-3.png" alt="Link 3">
+                </a>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
