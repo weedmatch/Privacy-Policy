@@ -1816,10 +1816,12 @@ body {
     align-items: center;
 
     gap: 60px;
+    padding-right: 60px;
 
     flex-shrink: 0;
 
 }
+
 .ticker-track a {
 
     width: 80px;
