@@ -1806,8 +1806,9 @@ body {
     display: flex;
     align-items: center;
     width: max-content;
-    
-    gap: 60px;
+    margin: 0;
+    padding: 0;
+    animation: logoTicker 25s linear infinite;
 }
 
 .ticker-set {
@@ -1815,6 +1816,9 @@ body {
     align-items: center;
     gap: 60px;
     flex-shrink: 0;
+    margin: 0;
+    padding: 0;
+    padding-right: 60px; /* replaces the parent gap */
 }
 
 .ticker-track a {
@@ -1854,13 +1858,8 @@ body {
 }
 
 @keyframes logoTicker {
-    from {
-        transform: translateX(0);
-    }
-
-    to {
-        transform: translateX(calc(-50% - 30px));
-    }
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
 }
 
 
