@@ -2200,11 +2200,11 @@ body {
     padding: 80px 0 100px;
 
     clip-path: polygon(
-        0 0,
-        100% 0,
-        100% 95%,
-        0 100%
-    );
+    0 0,
+    100% 0,
+    100% 85%,
+    0 100%
+);
 
 }
 
@@ -2212,36 +2212,34 @@ body {
 
 .tags-container {
 
-    width: 90%;
-
+    width: 100%;
     max-width: 1500px;
+    padding: 0 16px;
 
     margin: 0 auto;
+    display: flex;
 
-    display: grid;
-
-    grid-template-columns: repeat(3, 1fr);
-
-    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
 
 }
 
 
 
 .tag-card {
+    width: 260px;
+    min-width: 260px;
 
     background: #F6FEFF;
 
     border: 2px solid #00500D;
-
     border-radius: 20px;
 
-    padding: 40px 30px;
-
+    padding: 40px 25px;
     text-align: center;
 
     color: #00500D;
-
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 
     transition: 
