@@ -1815,16 +1815,24 @@ body {
 
 .ticker-track a {
 
+    width: 90px;
+    height: 60px;
+
     display: flex;
     align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
 
 }
 
 .ticker-track img {
 
-    width: clamp(40px, 4vw, 64px);
-    height: auto;
+    width: 100%;
+    height: 100%;
+
     object-fit: contain;
+
     filter: blur(0);
     transition: transform .3s ease;
 
