@@ -1875,4 +1875,24 @@ body {
         height: 100%;
     }
 
+  .ticker-wrapper {
+
+        mask-image: linear-gradient(
+            to right,
+            transparent,
+            black 3%,
+            black 97%,
+            transparent
+        );
+
+        -webkit-mask-image: linear-gradient(
+            to right,
+            transparent,
+            black 3%,
+            black 97%,
+            transparent
+        );
+
+    }
+
 }
