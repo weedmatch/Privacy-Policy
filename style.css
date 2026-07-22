@@ -2279,7 +2279,6 @@ body {
     height: 70px;
     object-fit: contain;
     margin-bottom: 25px;
-
 }
 
 .icon-hover {
@@ -2303,7 +2302,6 @@ body {
     font-weight: 700;
     font-size: 22px;
     margin-bottom: 20px;
-
 }
 
 .tag-card p {
@@ -2311,32 +2309,8 @@ body {
     font-family: 'Inder', sans-serif;
     font-size: 16px;
     line-height: 1.7;
-
 }
 
 
-
-@media (max-width:1100px) {
-    .tags-container {
-        gap: 25px;
-    }
-
-    .tag-card {
-
-        padding: 35px 20px;
-    }
-
-}
-
-
-@media (max-width:700px) {
-
-    .tags-container {
-        grid-template-columns: 1fr;
-
-        gap: 30px;
-
-    }
-}
-
+@media (max-width:850px) {
 
