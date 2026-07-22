@@ -2386,31 +2386,45 @@ body {
 
 
 
+
+
 @media (max-width: 350px) {
 
     .tags-container {
 
-        grid-template-columns: 1fr;
-
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         gap: 32px;
 
         padding: 0 16px;
 
     }
 
-
     .tag-card,
+    .tag-card:nth-child(1),
+    .tag-card:nth-child(2),
     .tag-card:nth-child(3) {
 
-        grid-column: auto;
-
+        order: initial;
         width: 320px;
-
         min-width: 320px;
-
         max-width: 320px;
 
-        justify-self: center;
+    }
+
+    .tag-card:nth-child(1) {
+        order: 1;
+
+    }
+
+    .tag-card:nth-child(2) {
+        order: 2;
+
+    }
+
+    .tag-card:nth-child(3) {
+        order: 3;
 
     }
 
