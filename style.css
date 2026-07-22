@@ -2104,7 +2104,6 @@ body {
 
 }
 
-
 .enthusiasts-seeker-text {
 
     margin-top: 32px;
@@ -2118,5 +2117,68 @@ body {
     color: #00500D;
 
     text-align: center;
+
+}
+
+
+
+/* 1100 BREAKPOINT */
+
+@media (max-width: 1100px) {
+
+    .enthusiasts-container {
+
+        grid-template-columns: 1fr 1fr;
+
+        gap: 30px;
+
+    }
+
+    .enthusiasts-content {
+
+        grid-column: 1 / -1;
+
+        order: 1;
+
+    }
+
+    .enthusiasts-left {
+
+        order: 2;
+    }
+
+    .enthusiasts-right {
+
+        order: 3;
+
+    }
+
+}
+
+
+/* 700 BREAKPOINT */
+
+@media (max-width: 700px) {
+
+    .enthusiasts-container {
+
+        grid-template-columns: 1fr 1fr;
+
+        gap: 15px;
+
+    }
+
+    .enthusiasts-content {
+
+        grid-column: 1 / -1;
+
+    }
+
+    .enthusiasts-left,
+    .enthusiasts-right {
+
+        width: 100%;
+
+    }
 
 }
