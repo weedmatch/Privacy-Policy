@@ -149,31 +149,3 @@ document.addEventListener("click", (event) => {
 
 
 
-
-const ticker = document.querySelector(".ticker-track");
-const firstSet = ticker.querySelector(".ticker-set");
-let position = 0;
-const speed = 0.5;
-
-function getLoopWidth() {
-    const gap = parseFloat(getComputedStyle(ticker).gap) || 0;
-    return firstSet.offsetWidth + gap;
-}
-
-let loopWidth = getLoopWidth();
-
-function moveTicker() {
-    position -= speed;
-    if (Math.abs(position) >= loopWidth) {
-        position += loopWidth; // carry over overshoot instead of snapping to 0
-    }
-    ticker.style.transform = `translate3d(${position}px, 0, 0)`;
-    requestAnimationFrame(moveTicker);
-}
-
-// recalc on resize in case logo sizes/gaps change responsively
-window.addEventListener("resize", () => {
-    loopWidth = getLoopWidth();
-});
-
-moveTicker();
