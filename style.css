@@ -2131,26 +2131,21 @@ body {
         grid-template-columns: 1fr 1fr;
 
         gap: 30px;
-
     }
-
     .enthusiasts-content {
 
         grid-column: 1 / -1;
-
         order: 1;
+        margin-bottom: 40px;
 
     }
-
     .enthusiasts-left {
 
         order: 2;
     }
-
     .enthusiasts-right {
 
         order: 3;
-
     }
 
 }
