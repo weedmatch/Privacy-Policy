@@ -1848,6 +1848,12 @@ body {
     transform: scale(1.1);
 }
 
+.ticker-track,
+.ticker-set {
+    margin: 0;
+    padding: 0;
+}
+
 @keyframes logoTicker {
 
     from {
