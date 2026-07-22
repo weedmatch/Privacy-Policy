@@ -2385,6 +2385,8 @@ body {
 
     .tags-container {
 
+        display: grid;
+
         grid-template-columns: 1fr;
 
         gap: 32px;
@@ -2393,21 +2395,23 @@ body {
 
     }
 
-    .tag-card:nth-child(3) {
-
-        grid-column: auto;
-
-        width: 320px;
-
-    }
 
     .tag-card {
 
         width: 320px;
+
+        justify-self: center;
+
+    }
+
+
+    .tag-card:nth-child(3) {
+
+        grid-column: auto;
+
     }
 
 }
-
 
 
 
