@@ -662,6 +662,14 @@ body {
 
 
 
+
+
+
+
+
+
+
+
 /* Swipe Section */
 
 .swipe-section {
@@ -942,6 +950,13 @@ body {
     }
 
 }
+
+
+
+
+
+
+
 
 
 
@@ -1404,6 +1419,18 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 /* ==========================
    INTRO SECTION
 ========================== */
@@ -1524,8 +1551,6 @@ body {
     line-height: 1.8;
 
 }
-
-
 
 
 /* Video */
@@ -1704,5 +1729,102 @@ body {
 .intro-right{
     width:100%;
 }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Links Section */
+
+.links-section {
+    width: 100%;
+    background: transparent;
+    overflow: hidden;
+}
+
+
+
+/* Title follows project width */
+
+.links-container {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 80px 40px 40px;
+}
+
+
+.links-title {
+    font-family: 'Overlock', sans-serif;
+    color: #00500D;
+    font-size: 28px;
+}
+
+
+
+/* Full width ticker */
+
+.ticker-wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.ticker-track {
+
+    display: flex;
+    align-items: center;
+    gap: 60px;
+
+    width: max-content;
+
+    animation: logoScroll 25s linear infinite;
+}
+
+.ticker-track a {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.ticker-track img {
+
+    width: clamp(80px, 10vw, 160px);
+    height: auto;
+
+    object-fit: contain;
+
+    transition: transform 0.3s ease;
+
+}
+
+
+.ticker-track img:hover {
+
+    transform: scale(1.1);
+
+}
+
+
+@keyframes logoScroll {
+
+    from {
+        transform: translateX(0);
+    }
+
+
+    to {
+        transform: translateX(-50%);
+    }
 
 }
