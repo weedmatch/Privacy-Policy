@@ -2057,6 +2057,8 @@ body {
 
     aspect-ratio: 1 / 1;
     position: relative;
+
+    z-index: 1;
     overflow: hidden;
 
 }
@@ -2086,8 +2088,10 @@ body {
 
     width: 180px;
     height: auto;
-    margin-top: -32px;
+    margin-top: -36px;
 
+    position: relative;
+    z-index: 2;
 }
 
 .i-dont-image {
