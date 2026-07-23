@@ -2518,7 +2518,7 @@ body {
 
     width: 100%;
     margin-top: 64px;
-    background: rgba(0,80,13,0.9);
+    background: rgba(0,80,13,0.7);
     border-radius: 20px;
 
     overflow: hidden;
@@ -2629,62 +2629,48 @@ body {
     width: 100%;
     background: rgba(255,255,255,0.7);
     padding: 80px 0;
-
 }
 
-
 .subscription-container {
-
     width: 90%;
     max-width: 1500px;
     margin: 0 auto;
 
 }
 
-
 .subscription-container h2 {
-
     text-align: center;
 
     font-family: 'Overlock', sans-serif;
-
     font-size: 24px;
-
     color: #00500D;
-
     margin-bottom: 50px;
 
 }
 
-
 .subscription-desktop {
-
     display: flex;
-
     justify-content: center;
-
     align-items: center;
 
     gap: 80px;
-
 }
-
 
 .subscription-desktop img {
-
     width: 200px;
-
     height: auto;
-
     object-fit: contain;
+}
+
+.subscription-desktop img,
+.subscription-slide-image img {
+
+    filter: drop-shadow(0 15px 25px rgba(0,0,0,0.25));
 
 }
 
 
 
-/* ============================= */
-/* MOBILE SLIDER */
-/* ============================= */
 
 .subscription-slider {
 
@@ -2738,6 +2724,15 @@ body {
 
 .subscription-dots {
     display: none;
+}
+
+
+.subscription-desktop img {
+    transition: transform 0.3s ease;
+}
+
+.subscription-desktop img:hover {
+    transform: translateY(-10px);
 }
 
 
@@ -2798,7 +2793,7 @@ body {
 .footer-section {
     width: 100%;
     background: rgba(0,80,13,0.85);
-    padding: 80px 0 30px;
+    padding: 32px 0 32px;
 
     color: #F6FEFF;
 }
@@ -2863,6 +2858,10 @@ body {
 
 .footer-column h3 {
     font-family: 'Overlock', sans-serif;
+    height: 45px;
+    display: flex;
+
+    align-items: flex-start;
 
     font-size: 20px;
     margin-bottom: 25px;
@@ -2915,11 +2914,23 @@ body {
 
 .footer-copyright {
     text-align:center;
-    margin-top:60px;
+    margin-top:32px;
     font-family:'Inder',sans-serif;
 
     font-size:14px;
+}
 
+.footer-social-icons img,
+.footer-contact-icons img {
+
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.footer-social-icons img:hover,
+.footer-contact-icons img:hover {
+
+    transform: scale(1.15);
+    opacity: 0.8;
 }
 
 
