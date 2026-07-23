@@ -253,3 +253,94 @@ faqItems.forEach(item => {
     });
 
 });
+
+
+
+
+
+
+
+
+
+
+
+// =============================
+// SUBSCRIPTION SLIDER
+// =============================
+
+const subscriptionImage = document.getElementById("subscription-image");
+const leftArrow = document.querySelector(".left-arrow");
+const rightArrow = document.querySelector(".right-arrow");
+const subscriptionDots = document.querySelectorAll(".subscription-dot");
+
+
+const subscriptionPlans = [
+
+    "assets/images/free-match.png",
+    "assets/images/most-popular.png",
+    "assets/images/sesh.png"
+
+];
+
+let currentSubscription = 1;
+
+function updateSubscriptionSlider() {
+
+    subscriptionImage.src = subscriptionPlans[currentSubscription];
+
+    subscriptionDots.forEach((dot, index)=>{
+        dot.classList.toggle(
+            "active",
+            index === currentSubscription
+        );
+    });
+
+
+    // Hide arrows at ends
+
+    if(currentSubscription === 0){
+
+        leftArrow.style.visibility = "hidden";
+        rightArrow.style.visibility = "visible";
+
+    }
+
+    else if(currentSubscription === subscriptionPlans.length - 1){
+
+        rightArrow.style.visibility = "hidden";
+        leftArrow.style.visibility = "visible";
+    }
+
+    else {
+
+        leftArrow.style.visibility = "visible";
+        rightArrow.style.visibility = "visible";
+    }
+
+}
+
+
+rightArrow.addEventListener("click", ()=>{
+
+    if(currentSubscription < subscriptionPlans.length - 1){
+        currentSubscription++;
+        updateSubscriptionSlider();
+    }
+
+});
+
+
+leftArrow.addEventListener("click", ()=>{
+    if(currentSubscription > 0){
+
+        currentSubscription--;
+        updateSubscriptionSlider();
+    }
+
+});
+
+updateSubscriptionSlider();
+
+
+
+
