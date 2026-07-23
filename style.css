@@ -2695,19 +2695,38 @@ body {
 }
 
 .subscription-arrow {
+
     width: 45px;
-
     height: 45px;
-    border-radius: 50%;
-    border: none;
-    background: #00500D;
-    color: #F6FEFF;
-    display: flex;
 
+    border: none;
+    background: transparent;
+
+    display: flex;
     justify-content: center;
     align-items: center;
 
     cursor: pointer;
+
+    padding: 0;
+
+}
+
+
+.subscription-arrow img {
+
+    width: 45px;
+    height: 45px;
+
+    object-fit: contain;
+
+}
+
+
+.right-arrow img {
+
+    transform: rotate(180deg);
+
 }
 
 
