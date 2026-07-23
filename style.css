@@ -2737,7 +2737,7 @@ body {
 
 
 
-@media (max-width:650px) {
+@media (max-width:700px) {
 
     .subscription-desktop {
         display: none;
@@ -2859,7 +2859,7 @@ body {
 .footer-contact,
 .footer-social-icons {
 
-    margin-top: auto;
+    margin-top: 32px;
 
 }
 
@@ -2950,13 +2950,12 @@ body {
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-.footer-social-icons img:hover,
-{
+.footer-social-icons img:hover {
 
     transform: scale(1.15);
     opacity: 0.8;
-}
 
+}
 
 
 
