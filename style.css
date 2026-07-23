@@ -2518,7 +2518,7 @@ body {
 
     width: 100%;
     margin-top: 64px;
-    background: rgba(0,80,13,0.7);
+    background: rgba(0,80,13,0.85);
     border-radius: 20px;
 
     overflow: hidden;
@@ -2653,7 +2653,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    gap: 80px;
+    gap: clamp(0, 5vw, 80px);
 }
 
 .subscription-desktop img {
@@ -2850,10 +2850,10 @@ body {
 
     min-height: 180px;
     display: flex;
-
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
+
 }
 
 .footer-column h3 {
@@ -2917,7 +2917,7 @@ body {
     margin-top:32px;
     font-family:'Inder',sans-serif;
 
-    font-size:14px;
+    font-size:16px;
 }
 
 .footer-social-icons img,
