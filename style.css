@@ -2488,7 +2488,8 @@ body {
 
     font-size: 28px;
     color: #00500D;
-    margin-bottom: 0px;
+    margin-bottom: 32px;
+    margin-top: 32px;
 }
 
 .contact-content p {
@@ -2940,10 +2941,13 @@ body {
 
 .footer-copyright {
     width: 100%;
-    text-align:center;
-    margin-top:32px;
-    font-family:'Inder',sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    margin-top:32px;
+
+    font-family:'Inder',sans-serif;
     font-size:16px;
 }
 
