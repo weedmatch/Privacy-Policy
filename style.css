@@ -2518,7 +2518,7 @@ body {
 
     width: 100%;
     margin-top: 64px;
-    background: rgba(0,80,13,0.85);
+    background: rgba(0,80,13,0.9);
     border-radius: 20px;
 
     overflow: hidden;
@@ -2653,7 +2653,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    gap: clamp(20px, 5vw, 80px);
+    gap: clamp(0px, 1vw, 80px);
 }
 
 .subscription-desktop img {
