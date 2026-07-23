@@ -2647,6 +2647,7 @@ body {
 
 }
 
+
 .subscription-container {
 
     width: 90%;
@@ -2655,157 +2656,148 @@ body {
 
 }
 
+
 .subscription-container h2 {
+
     text-align: center;
 
     font-family: 'Overlock', sans-serif;
 
     font-size: 24px;
+
     color: #00500D;
+
     margin-bottom: 50px;
 
 }
 
 
+
+/* ============================= */
 /* DESKTOP */
+/* ============================= */
+
 
 .subscription-desktop {
 
     display: flex;
+
     justify-content: center;
+
     align-items: center;
 
     gap: 80px;
+
 }
 
 
 .subscription-desktop img {
 
     width: 200px;
+
     height: auto;
+
     object-fit: contain;
+
 }
 
 
 
+/* ============================= */
 /* MOBILE SLIDER */
+/* ============================= */
+
+.subscription-slider {
+
+    display: none;
+
+}
 
 .subscription-slide-image {
 
     width: 200px;
-    height: auto;
-
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
 
-
 .subscription-slide-image img {
 
     width: 200px;
     height: auto;
-
     object-fit: contain;
-
 }
 
-.subscription-slider {
-    display: none;
-}
 
 .subscription-arrow {
 
-    width: 45px;
-    height: 45px;
-
+    width: 32px;
+    height: 32px;
     border: none;
+
     background: transparent;
 
     display: flex;
     justify-content: center;
     align-items: center;
-
     cursor: pointer;
-
     padding: 0;
-
+    flex-shrink: 0;
 }
 
 .subscription-arrow img {
 
-    width: 45px;
-    height: 45px;
-
+    width: 32px;
+    height: 32px;
     object-fit: contain;
-
 }
 
 .right-arrow img {
-
     transform: rotate(180deg);
-
-}
-
-.subscription-arrow span {
-    font-size: 22px;
-
-}
-
-.subscription-slide-image img {
-    width: 320px;
-    height: auto;
-
-    object-fit: contain;
 }
 
 .subscription-dots {
     display: none;
-
 }
+
+
 
 @media (max-width:850px) {
 
     .subscription-desktop {
-
         display: none;
     }
 
     .subscription-slider {
+
         display: flex;
         justify-content: center;
         align-items: center;
-
         gap: 25px;
-    }
 
-    .subscription-arrow {
-
-        flex-shrink: 0;
     }
 
     .subscription-dots {
-        display: flex;
 
+        display: flex;
         justify-content: center;
         gap: 10px;
         margin-top: 30px;
     }
-
     .subscription-dot {
+
         width: 10px;
         height: 10px;
         border-radius: 50%;
-
         background: rgba(0,80,13,0.4);
     }
 
     .subscription-dot.active {
         background: #00500D;
+
     }
 }
-
 
 
 
