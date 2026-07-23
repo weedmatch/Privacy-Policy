@@ -2217,7 +2217,7 @@ body {
 
     height: 80px;
 
-    background: #F6FEFF;
+    background: rgba(255,255,255,0.9);
 
     clip-path: polygon(
         100% 0,
@@ -2538,7 +2538,7 @@ body {
 
     width: 100%;
     margin-top: 64px;
-    background: #00500D;
+    background: rgba(0,80,13,0.9);
     border-radius: 20px;
 
     overflow: hidden;
