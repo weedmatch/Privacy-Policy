@@ -2965,7 +2965,7 @@ body {
     display:grid;
     grid-template-columns: 60% 40%;
 
-    width:calc(100% - 64px);
+    width:calc(100% - 32px);
 
     margin:0 auto;
 
