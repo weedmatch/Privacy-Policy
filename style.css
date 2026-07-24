@@ -2953,69 +2953,97 @@ body {
 
     .footer-container {
         width: calc(100% - 32px);
+
     }
 
     .footer-columns {
+
         grid-template-columns: 1fr 1fr;
         gap: 32px;
         text-align:left;
-        align-items:start;
     }
 
     .footer-column {
-
         align-items:flex-start;
         min-height:auto;
-    }
 
+    }
 
     .footer-column h3 {
-
         margin-bottom:16px;
-        text-align:left;
     }
 
-    /* Privacy + Accessibility together */
-    
-    .footer-column:nth-child(1),
+
+    /* Column 1 */
+
+    .footer-column:nth-child(1) {
+
+        grid-column:1;
+        display:flex;
+        flex-direction:column;
+    }
+
+    /* Move UTS into column 1 */
+
+    .footer-column:nth-child(2) {
+        grid-column:1;
+        grid-row:2;
+    }
+
+
+    /* Accessibility stays column 1 */
+
     .footer-column:nth-child(3) {
         grid-column:1;
-    }
-
-    /* Move Accessibility content below Privacy */
-
-    .footer-column:nth-child(3) {
-        margin-top:0;
-    }
-
-    .footer-column:nth-child(3) .footer-contact {
-        align-items:flex-start;
-        gap:8px;
+        grid-row:3;
     }
 
 
-    .footer-column:nth-child(3) .footer-contact-icons {
-        justify-content:flex-start;
-    }
+    /* Icons + address column 2 */
 
-    /* User Terms icons */
-    
-    .footer-column:nth-child(2) {
-        grid-column:2;
-        grid-row:1;
-    }
+    .footer-column:nth-child(2) .footer-social-icons {
 
-    .footer-social-icons {
+        position:absolute;
+        right:16px;
+        top:160px;
+
         display:grid;
         grid-template-columns:repeat(2,24px);
         gap:16px;
-
-        justify-content:start;
     }
 
 
+    .mobile-footer-address {
+        display:block;
+
+        position:absolute;
+        right:16px;
+        top:260px;
+
+        text-align:left;
+        font-family:'Inder',sans-serif;
+        font-size:16px;
+        line-height:1.6;
+    }
+
+
+    .footer-column:nth-child(1) .footer-address {
+        display:none;
+    }
+
+    .footer-contact {
+
+        align-items:flex-start;
+    }
+
+    .footer-contact-icons {
+
+        justify-content:flex-start;
+    }
+
     .footer-copyright {
-        margin-top:40px;
+
+        margin-top:50px;
         text-align:center;
     }
 }
