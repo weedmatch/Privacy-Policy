@@ -2966,11 +2966,8 @@ body {
     grid-template-columns: 60% 40%;
 
     width:calc(100% - 32px);
-
     margin:0 auto;
-
     gap:32px;
-    align-items:stretch;
 }
     
 
@@ -3023,17 +3020,18 @@ body {
     }
 
     .footer-mobile-right {
+
     display:flex;
     flex-direction:column;
-
     justify-content:space-between;
+    
+    min-height:180px;
 }
 
    .footer-mobile-right .footer-social-icons {
     display:flex;
     flex-direction:column;
     gap:16px;
-
     width:100%;
 }
     
