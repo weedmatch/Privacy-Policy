@@ -2973,7 +2973,8 @@ body {
     .footer-mobile-left {
         display:flex;
         flex-direction:column;
-
+        
+        white-space: nowrap;
         gap:16px;
     }
 
@@ -2990,6 +2991,7 @@ body {
         display:flex;
 
         flex-direction:column;
+        align-items:flex-start;
         gap:8px;
 
     }
@@ -3018,17 +3020,20 @@ body {
 
     .footer-mobile-right {
 
-        display:flex;
-        flex-direction:column;
-        align-items:flex-start;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
 
-    }
-
+    height:100%;
+    padding-right:16px;
+}
 
     .footer-mobile-right .footer-social-icons {
-
+        width:100%;
         display:grid;
         grid-template-columns:repeat(2,24px);
+
+        justify-content:space-between;
         gap:16px;
     }
 
@@ -3040,7 +3045,7 @@ body {
 
     .footer-mobile-address {
 
-        margin-top:32px;
+        margin-top:auto;
         font-family:'Inder', sans-serif;
 
         font-size:16px;
